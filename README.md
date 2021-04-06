@@ -32,7 +32,7 @@ A curated list of resources for Document Understanding (DU) topic related to Int
         1. [PDF processing tools](#pdf-processing-tools)        
     1. [Conferences / workshops / journals](#conferences-workshops-journals) 
     1. [Blogs](#blogs)
-    1. [Inspirations - awesome](#inspirations-awesome) 
+    1. [Inspirations](#inspirations) 
     1. [Solutions](#solutions)
 1. [Examples](#examples)
     1. [Visually Rich Documents (VRDs)](#visually-rich-documents) 
@@ -176,7 +176,7 @@ Documents are a core part of many businesses in many fields such as law, finance
 1. [LegalTech: Information Extraction in legal documents](https://naturaltech.medium.com/legaltech-information-extraction-in-legal-documents-e1843a60bc8d), 2020
 1. [How to extract the structure of invoice data using tensorflow API faster crnn object detection](https://vigneshgig.medium.com/how-to-extract-the-structure-of-invoice-data-using-tensorflow-api-faster-crnn-object-detection-8aa15c12bb46), 2019
 
-## Inspirations - awesome 
+## Inspirations
 
 [Back to top](#table-of-contents)
 
