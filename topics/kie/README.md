@@ -1,0 +1,297 @@
+## Table of contents
+
+1. [Papers](#papers)
+1. [Datasets](#datasets)
+1. [Useful links](#useful-links)
+
+
+
+## Papers 
+
+
+#### 2021
+
+* **[Going Full-TILT Boogie on Document Understanding with Text-Image-Layout Transformer](https://arxiv.org/abs/2102.09550)**, 
+  <details>
+  <summary> Rafał Powalski, Łukasz Borchmann, Dawid Jurkiewicz, Tomasz Dwojak, Michał Pietruszka, Gabriela Pałka <em>arxiv</em> 2021 </summary>
+    We address the challenging problem of Natural Language Comprehension beyond plain-text documents by introducing the TILT neural network architecture which simultaneously learns layout information, visual features, and textual semantics. Contrary to previous approaches, we rely on a decoder capable of unifying a variety of problems involving natural language. The layout is represented as an attention bias and complemented with contextualized visual information, while the core of our model is a pretrained encoder-decoder Transformer. Our novel approach achieves state-of-the-art results in extracting information from documents and answering questions which demand layout understanding (DocVQA, CORD, WikiOps, SROIE). At the same time, we simplify the process by employing an end-to-end model.
+  </details>
+
+* [Glean: Structured Extractions from Templatic Documents](https://research.google/pubs/pub50092/)
+      <details>
+      <summary> Sandeep Tata et al. <em>Proceedings of the VLDB Endowment</em> 2021 </summary>
+    Extracting structured information from templatic documents is an important problem with the potential to automate many real-world business workflows such as payment, procurement, and payroll. The core challenge is that such documents can be laid out in virtually infinitely different ways. A good solution to this problem is one that generalizes well not only to known templates such as invoices from a known vendor, but also to unseen ones.    We developed a system called Glean to tackle this problem. Given a target schema for a document type and some labeled documents of that type, Glean uses machine learning to automatically extract structured information from other documents of that type. In this paper, we describe the overall architecture of Glean, and discuss three key data management challenges : 1) managing the quality of ground truth data, 2) generating training data for the machine learning model using labeled documents, and 3) building tools that help a developer rapidly build and improve a model for a given document type. Through empirical studies on a real-world dataset, we show that these data management techniques allow us to train a model that is over 5 F1 points better than the exact same model architecture without the techniques we describe. We argue that for such information-extraction problems, designing abstractions that carefully manage the training data is at least as important as choosing a good model architecture.
+      </details>
+
+* [Improving Information Extraction from Visually Rich Documents using Visual Span Representations](https://www.researchgate.net/publication/348559404_Improving_Information_Extraction_from_Visually_Rich_Documents_using_Visual_Span_Representations)
+  <details>
+  <summary> Ritesh Sarkhel, Arnab Nandi <em>ResearchGate</em> 2021</summary>
+    Along with textual content, visual features play an essential role in the semantics of visually rich documents. Information extraction (IE) tasks perform poorly on these documents if these visual cues are not taken into account. In this paper, we present Artemis-a visually aware, machine-learning-based IE method for heterogeneous visually rich documents. Artemis represents a visual span in a document by jointly encoding its visual and textual context for IE tasks. Our main contribution is twofold. First, we develop a deep-learning model that identifies the local context boundary of a visual span with minimal human-labeling. Second, we describe a deep neural network that encodes the multimodal context of a visual span into a fixed-length vector by taking its textual and layout-specific features into account. It identifies the visual span(s) containing a named entity by leveraging this learned representation followed by an inference task. We evaluate Artemis on four heterogeneous datasets from different domains over a suite of information extraction tasks. Results show that it outperforms state-of-the-art text-based methods by up to 17 points in F1-score.
+  </details>
+
+
+#### 2020
+
+* **[LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding](https://arxiv.org/abs/2012.14740)** 
+  <details>
+  <summary> Yang Xu et al. <em>arxiv</em> 2020 </summary>
+    Pre-training of text and layout has proved effective in a variety of visually-rich document understanding tasks due to its effective model architecture and the advantage of large-scale unlabeled scanned/digital-born documents. In this paper, we present \textbf{LayoutLMv2} by pre-training text, layout and image in a multi-modal framework, where new model architectures and pre-training tasks are leveraged. Specifically, LayoutLMv2 not only uses the existing masked visual-language modeling task but also the new text-image alignment and text-image matching tasks in the pre-training stage, where cross-modality interaction is better learned. Meanwhile, it also integrates a spatial-aware self-attention mechanism into the Transformer architecture, so that the model can fully understand the relative positional relationship among different text blocks. Experiment results show that LayoutLMv2 outperforms strong baselines and achieves new state-of-the-art results on a wide variety of downstream visually-rich document understanding tasks, including FUNSD (0.7895 -> 0.8420), CORD (0.9493 -> 0.9601), SROIE (0.9524 -> 0.9781), Kleister-NDA (0.834 -> 0.852), RVL-CDIP (0.9443 -> 0.9564), and DocVQA (0.7295 -> 0.8672). 
+  </details>
+
+* **[BROS: A Pre-trained Language Model for Understanding Texts in Document](https://openreview.net/pdf?id=punMXQEsPr0)**
+  <details>
+  <summary> Teakgyu Hong, DongHyun Kim, Mingi Ji, Wonseok Hwang, Daehyun Nam, Sungrae Park <em>openreview.net</em> 2020 </summary>
+    Understanding document from their visual snapshots is an emerging and challenging problem that requires both advanced computer vision and NLP methods. Although the recent advance in OCR enables the accurate extraction of text segments, it is still challenging to extract key information from documents due to the diversity of layouts. To compensate for the difficulties, this paper introduces a pre-trained language model, BERT Relying On Spatiality (BROS), that represents and understands the semantics of spatially distributed texts. Different from previous pre-training methods on 1D text, BROS is pre-trained on large-scale semi-structured documents with a novel area-masking strategy while efficiently including the spatial layout information of input documents. Also, to generate structured outputs in various document understanding tasks, BROS utilizes a powerful graph-based decoder that can capture the relation between text segments. BROS achieves state-of-the-art results on four benchmark tasks: FUNSD, SROIE*, CORD, and SciTSR. Our experimental settings and implementation codes will be publicly available.
+  </details>
+
+* **[LAMBERT: Layout-Aware (Language) Modeling using BERT for information extraction](https://arxiv.org/abs/2002.08087)**
+  <details>
+  <summary> Łukasz Garncarek, Rafał Powalski, Tomasz Stanisławek, Bartosz Topolski, Piotr Halama, Michał Turski, Filip Graliński <em>arxiv</em> 2020 </summary>
+    In this paper we introduce a novel approach to the problem of understanding documents where the local semantics is influenced by non-trivial layout. Namely, we modify the Transformer architecture in a way that allows it to use the graphical features defined by the layout, without the need to re-learn the language semantics from scratch, thanks to starting the training process from a model pretrained on classical language modeling tasks. SOTA on [SROIE leaderboard](https://rrc.cvc.uab.es/?ch=13&com=evaluation&task=3) 
+  </details>
+
+* **[LayoutLM: Pre-training of Text and Layout for Document Image Understanding](https://www.microsoft.com/en-us/research/publication/layoutlm-pre-training-of-text-and-layout-for-document-image-understanding/)**, \[[code](https://github.com/microsoft/unilm)\]  
+  <details>
+  <summary>Yiheng Xu, Minghao Li, Lei Cui, Shaohan Huang, Furu Wei, Ming Zhou <em>KDD</em> 2020 </summary>
+    Pre-training techniques have been verified successfully in a variety of NLP tasks in recent years. Despite the widespread of pre-training models for NLP applications, they almost focused on text-level manipulation, while neglecting the layout and style information that is vital for document image understanding. In this paper, we propose the LayoutLM to jointly model the interaction between text and layout information across scanned document images, which is beneficial for a great number of real-world document image understanding tasks such as information extraction from scanned documents. Furthermore, we also leverage the image features to incorporate the visual information of words into LayoutLM. To the best of our knowledge, this is the first time that text and layout are jointly learned in a single framework for document-level pre-training. It achieves new state-of-the-art results in several downstream tasks, including form understanding (from 70.72 to 79.27), receipt understanding (from 94.02 to 95.24) and document image classification (from 93.07 to 94.42). The code and pre-trained LayoutLM models are publicly available on GitHub.
+  </details>
+
+* **[Representation Learning for Information Extraction from Form-like Documents](https://www.aclweb.org/anthology/2020.acl-main.580/)**, \[[code](https://github.com/Praneet9/Representation-Learning-for-Information-Extraction)\]
+  <details>
+  <summary> Bodhisattwa Prasad Majumder, Navneet Potti, Sandeep Tata, James Bradley Wendt, Qi Zhao, Marc Najork <em>ACL</em> 2020 </summary>
+    We propose a novel approach using representation learning for tackling the problem of extracting structured information from form-like document images. We propose an extraction system that uses knowledge of the types of the target fields to generate extraction candidates and a neural network architecture that learns a dense representation of each candidate based on neighboring words in the document. These learned representations are not only useful in solving the extraction task for unseen document templates from two different domains but are also interpretable, as we show using loss cases.
+
+* **[PICK: Processing Key Information Extraction from Documents using Improved Graph Learning-Convolutional Networks](https://arxiv.org/abs/2004.07464)**, \[[code](https://github.com/wenwenyu/PICK-pytorch)\]
+  <details>
+  <summary> Wenwen Yu, Ning Lu, Xianbiao Qi, Ping Gong, Rong Xiao <em>ICPR</em> 2020 </summary>
+    Computer vision with state-of-the-art deep learning models has achieved huge success in the field of Optical Character Recognition (OCR) including text detection and recognition tasks recently. However, Key Information Extraction (KIE) from documents as the downstream task of OCR, having a large number of use scenarios in real-world, remains a challenge because documents not only have textual features extracting from OCR systems but also have semantic visual features that are not fully exploited and play a critical role in KIE. Too little work has been devoted to efficiently make full use of both textual and visual features of the documents. In this paper, we introduce PICK, a framework that is effective and robust in handling complex documents layout for KIE by combining graph learning with graph convolution operation, yielding a richer semantic representation containing the textual and visual features and global layout without ambiguity. Extensive experiments on real-world datasets have been conducted to show that our method outperforms baselines methods by significant margins.
+  </details>
+
+* [Towards a Multi-modal, Multi-task Learning based Pre-training Framework for Document Representation Learning](https://arxiv.org/pdf/2009.14457.pdf)
+  <details>
+  <summary> Subhojeet Pramanik, Shashank Mujumdar, Hima Patel <em>arxiv</em> 2020 </summary>
+    In this paper, we propose a multi-task learning-based framework that utilizes a combination of self-supervised and supervised pre-training tasks to learn a generic document representation. We design the network architecture and the pre-training tasks to incorporate the multi-modal document information across text, layout, and image dimensions and allow the network to work with multi-page documents. We showcase the applicability of our pre-training framework on a variety of different real-world document tasks such as document classification, document information extraction, and document retrieval. We conduct exhaustive experiments to compare performance against different ablations of our framework and state-of-the-art baselines. We discuss the current limitations and next steps for our work. 
+  </details>
+
+* [Merge and Recognize: A Geometry and 2D Context Aware Graph Model for Named Entity Recognition from Visual Documents](https://www.aclweb.org/anthology/2020.textgraphs-1.3/), \[[code/Website](https://github.com/)\]
+  <details>
+  <summary> Chuwei Luo, Yongpan Wang, Qi Zheng, Liangchen Li, Feiyu Gao, Shiyu Zhang <em>COLING</em> 2020 </summary>
+    Named entity recognition (NER) from visual documents, such as invoices, receipts or business cards, is a critical task for visual document understanding. Most classical approaches use a sequence-based model (typically BiLSTM-CRF framework) without considering document structure. Recent work on graph-based model using graph convolutional networks to encode visual and textual features have achieved promising performance on the task. However, few attempts take geometry information of text segments (text in bounding box) in visual documents into account. Meanwhile, existing methods do not consider that related text segments which need to be merged to form a complete entity in many real-world situations. In this paper, we present GraphNEMR, a graph-based model that uses graph convolutional networks to jointly merge text segments and recognize named entities. By incorporating geometry information from visual documents into our model, richer 2D context information is generated to improve document representations. To merge text segments, we introduce a novel mechanism that captures both geometry information as well as semantic information based on pre-trained language model. Experimental results show that the proposed GraphNEMR model outperforms both sequence-based and graph-based SOTA methods significantly.
+  </details>
+
+* [TRIE: End-to-End Text Reading and Information Extraction for Document Understanding](https://dl.acm.org/doi/10.1145/3394171.3413900)
+  <details>
+  <summary> Peng Zhang et al. <em>Proceedings of the 28th ACM International Conference on Multimedia</em> 2020 </summary>
+    Since real-world ubiquitous documents (e.g., invoices, tickets, resumes and leaflets) contain rich information, automatic document image understanding has become a hot topic. Most existing works decouple the problem into two separate tasks, (1) text reading for detecting and recognizing texts in images and (2) information extraction for analyzing and extracting key elements from previously extracted plain text.However, they mainly focus on improving information extraction task, while neglecting the fact that text reading and information extraction are mutually correlated. In this paper, we propose a unified end-to-end text reading and information extraction network, where the two tasks can reinforce each other. Specifically, the multimodal visual and textual features of text reading are fused for information extraction and in turn, the semantics in information extraction contribute to the optimization of text reading. On three real-world datasets with diverse document images (from fixed layout to variable layout, from structured text to semi-structured text), our proposed method significantly outperforms the state-of-the-art methods in both efficiency and accuracy.
+  </details>
+
+* [Robust Layout-aware IE for Visually Rich Documents with Pretrained Language Models](https://arxiv.org/pdf/2005.11017.pdf)
+  <details>
+  <summary> Mengxi Wei, Yifan He, Qiong Zhang <em>ACM SIGIR</em> 2020 </summary>
+    Many business documents processed in modern NLP and IR pipelines are visually rich: in addition to text, their semantics can also be captured by visual traits such as layout, format, and fonts. We study the problem of information extraction from visually rich documents (VRDs) and present a model that combines the powerof large pre-trained language models and graph neural networks to efficiently encode both textual and visual information in business documents. We further introduce new fine-tuning objectives to improve in-domain unsupervised fine-tuning to better utilize large amount of unlabeled in-domain data. We experiment on real world invoice and resume data sets and show that the proposed method outperforms strong text-based RoBERTa baselines by 6.3% absolute F1 on invoices and 4.7% absolute F1 on resumes. When evaluated in a few-shot setting, our method requires up to 30x less annotation data than the baseline to achieve the same level of performance at∼90% F1.
+  </details>
+
+* [End-to-End Extraction of Structured Information from Business Documents with Pointer-Generator Networks](https://www.aclweb.org/anthology/2020.spnlp-1.6/)
+  <details>
+  <summary> Clément Sage et al. <em>EMNLP</em> 2020 </summary>
+    The predominant approaches for extracting key information from documents resort to classifiers predicting the information type of each word. However, the word level ground truth used for learning is expensive to obtain since it is not naturally produced by the extraction task. In this paper, we discuss a new method for training extraction models directly from the textual value of information. The extracted information of a document is represented as a sequence of tokens in the XML language. We learn to output this representation with a pointer-generator network that alternately copies the document words carrying information and generates the XML tags delimiting the types of information. The ability of our end-to-end method to retrieve structured information is assessed on a large set of business documents. We show that it performs competitively with a standard word classifier without requiring costly word level supervision.
+  </details>
+
+* [Information Extraction from Text Intensive and Visually Rich Banking Documents](https://www.sciencedirect.com/science/article/pii/S0306457320308566)
+  <details>
+  <summary> Berke Oral et al. <em>Information Processing & Management</em> 2020 </summary>
+    Document types, where visual and textual information plays an important role in their analysis and understanding, pose a new and attractive area for information extraction research. Although cheques, invoices, and receipts have been studied in some previous multi-modal studies, banking documents present an unexplored area due to the naturalness of the text they possess in addition to their visual richness. This article presents the first study which uses visual and textual information for deep-learning based information extraction on text-intensive and visually rich scanned documents which are, in this instance, unstructured banking documents, or more precisely, money transfer orders. The impact of using different neural word representations (i.e., FastText, ELMo, and BERT) on IE subtasks (namely, named entity recognition and relation extraction stages), positional features of words on document images and auxiliary learning with some other tasks are investigated. The article proposes a new relation extraction algorithm based on graph factorization to solve the complex relation extraction problem where the relations within documents are n-ary, nested, document-level, and previously indeterminate in quantity. Our experiments revealed that the use of deep learning algorithms yielded around 10 percentage points improvement on the IE sub-tasks. The inclusion of word positional features yielded around 3 percentage points of improvement in some specific information fields. Similarly, our auxiliary learning experiments yielded around 2 percentage points of improvement on some information fields associated with the specific transaction type detected by our auxiliary task. The integration of the information extraction system into a real banking environment reduced cycle times substantially. When compared to the manual workflow, document processing pipeline shortened book-to-book money transfers to 10 minutes (from 29 min.) and electronic fund transfers (EFT) to 17 minutes (from 41 min.) respectively.
+  </details>
+
+#### 2019
+
+* **[Graph Convolution for Multimodal Information Extraction from Visually Rich Documents](https://arxiv.org/abs/1903.11279)**
+  <details>
+  <summary> Xiaojing Liu, Feiyu Gao, Qiong Zhang, Huasha Zhao <em>NAACL</em> 2019 </summary>
+    Visually rich documents (VRDs) are ubiquitous in daily business and life. Examples are purchase receipts, insurance policy documents, custom declaration forms and so on. In VRDs, visual and layout information is critical for document understanding, and texts in such documents cannot be serialized into the one-dimensional sequence without losing information. Classic information extraction models such as BiLSTM-CRF typically operate on text sequences and do not incorporate visual features. In this paper, we introduce a graph convolution based model to combine textual and visual information presented in VRDs. Graph embeddings are trained to summarize the context of a text segment in the document, and further combined with text embeddings for entity extraction. Extensive experiments have been conducted to show that our method outperforms BiLSTM-CRF baselines by significant margins, on two real-world datasets. Additionally, ablation studies are also performed to evaluate the effectiveness of each component of our model. 
+  </details>
+
+* **[GraphIE: A Graph-Based Framework for Information Extraction](https://www.aclweb.org/anthology/N19-1082/)**, \[[code](https://github.com/thomas0809/GraphIE)\]
+  <details>
+  <summary> Yujie Qian, Enrico Santus, Zhijing Jin, Jiang Guo, Regina Barzilay <em>NAACL</em> 2019 </summary>
+    Most modern Information Extraction (IE) systems are implemented as sequential taggers and only model local dependencies. Non-local and non-sequential context is, however, a valuable source of information to improve predictions. In this paper, we introduce GraphIE, a framework that operates over a graph representing a broad set of dependencies between textual units (i.e. words or sentences). The algorithm propagates information between connected nodes through graph convolutions, generating a richer representation that can be exploited to improve word-level predictions. Evaluation on three different tasks — namely textual, social media and visual information extraction — shows that GraphIE consistently outperforms the state-of-the-art sequence tagging model by a significant margin.
+  </details>
+
+* **[Attend, Copy, Parse: End-to-end information extraction from documents](https://arxiv.org/pdf/1812.07248.pdf)** \[[code - unofficial](https://github.com/naiveHobo/InvoiceNet)\]
+  <details>
+  <summary> Rasmus Berg Palm, Florian Laws, Ole Winther <em>ICDAR</em> 2019 </summary>
+    Document information extraction tasks performed by humans create data consisting of a PDF or document image input, and extracted string outputs. This end-to-end data is naturally consumed and produced when performing the task because it is valuable in and of itself. It is naturally available, at no additional cost. Unfortunately, state-of-the-art word classification methods for information extraction cannot use this data, instead requiring word-level labels which are expensive to create and consequently not available for many real life tasks. In this paper we propose the Attend, Copy, Parse architecture, a deep neural network model that can be trained directly on end-to-end data, bypassing the need for word-level labels. We evaluate the proposed architecture on a large diverse set of invoices, and outperform a state-of-the-art production system based on word classification. We believe our proposed architecture can be used on many real life information extraction tasks where word classification cannot be used due to a lack of the required word-level labels.
+  </details>
+
+* [One-shot Information Extraction from Document Images using Neuro-Deductive Program Synthesis](https://arxiv.org/abs/1906.02427)
+  <details>
+  <summary> Vishal Sunder, Ashwin Srinivasan, Lovekesh Vig, Gautam Shroff, Rohit Rahul <em>arxiv</em> 2019 </summary>
+    Our interest in this paper is in meeting a rapidly growing industrial demand for information extraction from images of documents such as invoices, bills, receipts etc. In practice users are able to provide a very small number of example images labeled with the information that needs to be extracted. We adopt a novel two-level neuro-deductive, approach where (a) we use pre-trained deep neural networks to populate a relational database with facts about each document-image; and (b) we use a form of deductive reasoning, related to meta-interpretive learning of transition systems to learn extraction programs: Given task-specific transitions defined using the entities and relations identified by the neural detectors and a small number of instances (usually 1, sometimes 2) of images and the desired outputs, a resource-bounded meta-interpreter constructs proofs for the instance(s) via logical deduction; a set of logic programs that extract each desired entity is easily synthesized from such proofs. In most cases a single training example together with a noisy-clone of itself suffices to learn a program-set that generalizes well on test documents, at which time the value of each entity is determined by a majority vote across its program-set. We demonstrate our two-level neuro-deductive approach on publicly available datasets ("Patent" and "Doctor's Bills") and also describe its use in a real-life industrial problem. 
+  </details>
+
+* [EATEN: Entity-aware Attention for Single ShotVisual Text Extraction](https://arxiv.org/pdf/1909.09380.pdf), \[[code](https://github.com/beacandler/EATEN)\] 
+  <details>
+  <summary> He guo, Xiameng Qin, Jiaming Liu, Junyu Han, Jingtuo Liu, Errui Ding <em>ICDAR</em> 2019 </summary>
+    Extracting  entity  from  images  is  a  crucial  part  ofmany  OCR  applications,  such  as  entity  recognition  of  cards,invoices, and receipts. Most of the existing works employ classicaldetection  and  recognition  paradigm.  This  paper  proposes  anEntity-aware Attention Text Extraction Network called EATEN,which  is  an  end-to-end  trainable  system  to  extract  the  entitieswithout  any  post-processing.  In  the  proposed  framework,  eachentity  is  parsed  by  its  corresponding  entity-aware  decoder,  re-spectively. Moreover, we innovatively introduce a state transitionmechanism   which   further   improves   the   robustness   of   entityextraction. In consideration of the absence of public benchmarks,we construct a dataset of almost 0.6 million images in three real-world scenarios (train ticket, passport and business card), whichis   publicly   available   at   https://github.com/beacandler/EATEN. To  the  best  of  our  knowledge,  EATEN  is  the  first  single  shotmethod to extract entities from images. Extensive experiments onthese  benchmarks  demonstrate  the  state-of-the-art  performanceof  EATEN.
+  </details>
+
+
+* [End-to-End Information Extraction byCharacter-Level Embedding and Multi-StageAttentional U-Net](https://bmvc2019.org/wp-content/uploads/papers/0870-paper.pdf)
+  <details>
+  <summary> Tuan Nguyen Dang, Dat Nguyen Thanh <em>BMVC</em> 2019 </summary>
+    Information extraction from document images has received a lot of attention recently, due to the need for digitizing a large volume of unstructured documents such as invoices, receipts, bank transfers, etc. In this paper, we propose a novel deep learning architecture for end-to-end information extraction on the 2D character-grid embedding of the document, namely the Multi-Stage Attentional U-Net. To effectively capture the textual and spatial relations between 2D elements, our model leverages a specialized multi-stage encoder-decoders design, in conjunction with efficient uses of the self-attention mechanism and the box convolution. Experimental results on different datasets show that our model outperforms the baseline U-Net architecture by a large margin while using 40% fewer parameters. Moreover, it also significantly improved the baseline in erroneous OCR and limited training data scenario, thus becomes practical for real-world applications.
+  </details>
+
+
+#### Older 
+
+* **[Chargrid: Towards Understanding 2D Documents](https://arxiv.org/pdf/1809.08799v1.pdf)**, \[[code - unofficial](https://github.com/sciencefictionlab/chargrid-pytorch)\] 
+  <details>
+  <summary> Anoop R Katti et al. <em>EMNLP</em> 2018 </summary>
+    We introduce a novel type of text representation that preserves the 2D layout of a document. This is achieved by encoding each document page as a two-dimensional grid of characters. Based on this representation, we present a generic document understanding pipeline for structured documents. This pipeline makes use of a fully convolutional encoder-decoder network that predicts a segmentation mask and bounding boxes. We demonstrate its capabilities on an information extraction task from invoices and show that it significantly outperforms approaches based on sequential text or document images. 
+  </details>
+
+* **[CloudScan - A Configuration-Free Invoice Analysis System Using Recurrent Neural Networks](https://arxiv.org/abs/1708.07403)**, \[[code - unofficial](https://github.com/naiveHobo/InvoiceNet/tree/cloudscan)\]
+  <details>
+  <summary> Rasmus Berg Palm, Ole Winther, Florian Laws <em>ICDAR</em> 2017 </summary>
+    We present CloudScan; an invoice analysis system that requires zero configuration or upfront annotation. In contrast to previous work, CloudScan does not rely on templates of invoice layout, instead it learns a single global model of invoices that naturally generalizes to unseen invoice layouts. The model is trained using data automatically extracted from end-user provided feedback. This automatic training data extraction removes the requirement for users to annotate the data precisely. We describe a recurrent neural network model that can capture long range context and compare it to a baseline logistic regression model corresponding to the current CloudScan production system. We train and evaluate the system on 8 important fields using a dataset of 326,471 invoices. The recurrent neural network and baseline model achieve 0.891 and 0.887 average F1 scores respectively on seen invoice layouts. For the harder task of unseen invoice layouts, the recurrent neural network model outperforms the baseline with 0.840 average F1 compared to 0.788. 
+</details>
+
+* [Field Extraction by Hybrid Incremental and a-priori Structural Templates](http://www.cvc.uab.es/~marcal/pdfs/DAS18e.pdf)
+  <details>
+  <summary> Vincent Poulain d'Andecy, Emmanuel Hartmann, Marçal Rusiñol <em>DAS</em> 2018 </summary>  
+    In this paper, we present an incremental frame-work for extracting information fields from administrative documents. First, we demonstrate some limits of the existing state-of-the-art methods such as the delay of the system efficiency. This is a concern in industrial context when we have only few samples of each document class. Based on this analysis, we propose a hybrid system combining incremental learning by means of itf-df statistics and a-priori generic models. We report in the experimental section our results obtained with a dataset of real invoices.
+  </details>
+  
+* [Multidomain Document Layout Understanding using Few Shot Object Detection](https://www.researchgate.net/publication/327173179_Multidomain_Document_Layout_Understanding_using_Few_Shot_Object_Detection)
+  <details>
+  <summary> Pranaydeep Singh, Srikrishna Varadarajan, Ankit Narayan Singh, Muktabh Mayank Srivastava <em>arxiv</em> 2018 </summary>
+    We try to address the problem of document layout understanding using a simple algorithm which generalizes across multiple domains while training on just few examples per domain. We approach this problem via supervised object detection method and propose a methodology to overcome the requirement of large datasets. We use the concept of transfer learning by pre-training our object detector on a simple artificial (source) dataset and fine-tuning it on a tiny domain specific (target) dataset. We show that this methodology works for multiple domains with training samples as less as 10 documents. We demonstrate the effect of each component of the methodology in the end result and show the superiority of this methodology over simple object detectors. 
+  </details>
+
+* [Extracting structured data from invoices](https://www.aclweb.org/anthology/U18-1006/)
+  <details>
+  <summary>Xavier Holt, Andrew Chisholm <em>ALTA</em> 2018</summary>
+    Business documents encode a wealth of information in a format tailored to human consumption – i.e. aesthetically disbursed natural language text, graphics and tables. We address the task of extracting key fields (e.g. the amount due on an invoice) from a wide-variety of potentially unseen document formats. In contrast to traditional template driven extraction systems, we introduce a content-driven machine-learning approach which is both robust to noise and generalises to unseen document formats. In a comparison of our approach with alternative invoice extraction systems, we observe an absolute accuracy gain of 20\% across compared fields, and a 25\%–94\% reduction in extraction latency.
+  </details>
+
+* [Automatic and interactive rule inference without ground truth](https://hal.inria.fr/hal-01197470/document)
+  <details>
+  <summary> Cérès Carton, Aurélie Lemaitre, Bertrand Coüasnon <em>ICDAR</em> 2015 </summary>
+    Dealing with non annotated documents for the design of a document recognition system is not an easy task. In general, statistical methods cannot learn without an annotated ground truth, unlike syntactical methods. However their ability to deal with non annotated data comes from the fact that the description is manually made by a user. The adaptation to a new kind of document is then tedious as the whole manual process of extraction of knowledge has to be redone. In this paper, we propose a method to extract knowledge and generate rules without any ground truth. Using large volume of non annotated documents, it is possible to study redundancies of some extracted elements in the document images. The redundancy is exploited through an automatic clustering algorithm. An interaction with the user brings semantic to the detected clusters. In this work, the extracted elements are some keywords extracted with word spotting. This approach has been applied to old marriage record field detection on the FamilySearch HIP2013 competition database. The results demonstrate that we successfully automatically infer rules from non annotated documents using the redundancy of extracted elements of the documents.
+  </details>
+
+* [Semantic Label and Structure Model based Approach for Entity Recognition in Database Context](https://www.researchgate.net/publication/308809442_Semantic_Label_and_Structure_Model_based_Approach_for_Entity_Recognition_in_Database_Context)
+  <details>
+  <summary> Nihel Kooli, Abdel Belaïd <em>ICDAR</em> 2015 </summary>
+    This paper proposes an entity recognition approach in scanned documents referring to their description in database records. First, using the database record values, the corresponding document fields are labeled. Second, entities are identified by their labels and ranked using a TF/IDF based score. For each entity, local labels are grouped into a graph. This graph is matched with a graph model (structure model) which represents geometric structures of local entity labels using a specific cost function. This model is trained on a set of well chosen entities semi-automatically annotated. At the end, a correction step allows us to complete the eventual entity mislabeling using geometrical relationships between labels. The evaluation on 200 business documents containing 500 entities reaches about 93% for recall and 97% for precision.
+  </details>
+
+* [Combining Visual and Textual Features for Information Extraction fromOnline Flyers](https://www.aclweb.org/anthology/N15-1032/)
+  <details>
+  <summary> Emilia Apostolova, Noriko Tomuro <em>EMNLP</em> 2014 </summary>
+    Information in visually rich formats such as PDF and HTML is often conveyed by a combination of textual and visual features. In particular, genres such as marketing flyers and info-graphics often augment textual information by its color, size, positioning, etc. As a result, traditional text-based approaches to information extraction (IE) could underperform. In this study, we present a supervised machine learning approach to IE from on-line commercial real estate flyers. We evaluated the performance of SVM classifiers on the task of identifying 12 types of named entities using a combination of textual and visual features. Results show that the addition of visual features such as color, size, and positioning significantly increased classifier performance.
+  </details>
+
+* **[From one tree to a forest: a unified solution for structured web data extraction](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/StructedDataExtraction_SIGIR2011.pdf)**, \[[Website](https://archive.codeplex.com/?p=swde)\]
+  <details>
+  <summary> Qiang Hao, Ruiqiong Chu Cai, Yanwei Pang, Lei Y Zhang <em>ACM SIGIR</em> 2011 </summary>
+    Structured data, in the form of entities and associated attributes, has been a rich web resource for search engines and knowledge databases. To efficiently extract structured data from enormous websites in various verticals (e.g., books, restaurants), much research effort has been attracted, but most existing approaches either require considerable human effort or rely on strong features that lack of flexibility. We consider an ambitious scenario -- can we build a system that (1) is general enough to handle any vertical without re-implementation and (2) requires only one labeled example site from each vertical for training to automatically deal with other sites in the same vertical? In this paper, we propose a unified solution to demonstrate the feasibility of this scenario. Specifically, we design a set of weak but general features to characterize vertical knowledge (including attribute-specific semantics and inter-attribute layout relationships). Such features can be adopted in various verticals without redesign; meanwhile, they are weak enough to avoid overfitting of the learnt knowledge to seed sites. Given a new unseen site, the learnt knowledge is first applied to identify page-level candidate attribute values, while inevitably involve false positives. To remove noise, site-level information of the new site is then exploited to boost up the true values. The site-level information is derived in an unsupervised manner, without harm to the applicability of the solution. Promising experimental performance on 80 websites in 8 distinct verticals demonstrated the feasibility and flexibility of the proposed solution.
+  </details>  
+
+* [A probabilistic approach to printed document understanding](https://link.springer.com/article/10.1007/s10032-010-0137-1)
+  <details>
+  <summary> Eric Medvet, Alberto Bartoli, Giorgio Davanzo <em> IJDAR</em> 2010 </summary>
+    We propose an approach for information extraction for multi-page printed document understanding. The approach is designed for scenarios in which the set of possible document classes, i.e., documents sharing similar content and layout, is large and may evolve over time. Describing a new class is a very simple task: the operator merely provides a few samples and then, by means of a GUI, clicks on the OCR-generated blocks of a document containing the information to be extracted. Our approach is based on probability: we derived a general form for the probability that a sequence of blocks contains the searched information. We estimate the parameters for a new class by applying the maximum likelihood method to the samples of the class. All these parameters depend only on block properties that can be extracted automatically from the operator actions on the GUI. Processing a document of a given class consists in finding the sequence of blocks, which maximizes the corresponding probability for that class. We evaluated experimentally our proposal using 807 multi-page printed documents of different domains (invoices, patents, data-sheets), obtaining very good results—e.g., a success rate often greater than 90% even for classes with just two samples.
+  </details>
+
+
+## Datasets
+
+
+#### English 
+
+* **[Kleister: Key Information Extraction Datasets Involving Long Documents with Complex Layouts](https://arxiv.org/abs/2003.02356)**, \[[data nda](https://github.com/applicaai/kleister-nda)\], \[[data charity](https://github.com/applicaai/kleister-charity)\]
+  <details>
+  <summary> Tomasz Stanisławek, Filip Graliński, Anna Wróblewska, Dawid Lipiński, Agnieszka Kaliska, Paulina Rosalska, Bartosz Topolski, Przemysław Biecek <em>arxiv</em> 2020 </summary>
+    Charity dataset size: Train(1 729), Dev(440), Test(609). NDA dataset size: Train(254), Dev(83), Test(203). Description: The relevance of Key Information Extraction (KIE) task is increasing in the natural language processing problems. But there are still only a few well-defined problems that serve as benchmarks for solutions in this area. To bridge this gap, we introduce two new datasets (Kleister NDA and Kleister Charity). They involve a mix of born-digital and scanned long formal documents in English.  In these datasets, an NLP system is expected to find or infer various types of entities by utilizing both textual and structural layout features. The Kleister Charity dataset consists of 2,788 annual financial reports of charity organizations, i.e. 61,643 unique pages with 21,612 entities to extract. The Kleister NDA dataset contains 540 Non-disclosure Agreements, i.e. 3,229 unique pages with 2,160 entities to extract. We provide several state-of-the-art baseline systems from the KIE domain (Flair, BERT, RoBERTa, LayoutLM, LAMBERT), which show that our datasets pose a strong challenge to existing models. The best model achieved 81.77 % and 83.57 % F1-score on Kleister NDA and Kleister Charity datasets respectively. With this paper, we release our datasets to encourage progress on more in-depth and complex information extraction tasks.
+  </details>
+
+* **[SROIE](https://ieeexplore.ieee.org/document/8977955)**, \[[Website](https://rrc.cvc.uab.es/?ch=13&com=evaluation&task=3)\]
+  <details>
+  <summary> Zheng Huang, Kai Chen, Jianhua He, Xiang Bai, Dimosthenis Karatzas, Shijian Lu, C. V. Jawahar <em>ICDAR</em> 2019 </summary>
+    Dataset size: Train(600), Test(400). Abstract: The dataset will have 1000 whole scanned receipt images. Each receipt image contains around about four key text fields, such as goods name, unit price and total cost, etc. The text annotated in the dataset mainly consists of digits and English characters. The dataset is split into a training/validation set (“trainval”) and a test set (“test”). The “trainval” set consists of 600 receipt images which will be made available to the participants along with their annotations. The “test” set consists of 400 images.
+  </details>
+
+* **[CORD](https://openreview.net/forum?id=SJl3z659UH)**, \[[code/data](https://github.com/clovaai/cord)\]
+  <details>
+  <summary> Park, Seunghyun and Shin, Seung and Lee, Bado and Lee, Junyeop and Surh, Jaeheung and Seo, Minjoon and Lee, Hwalsuk <em>NeurIPS Workshop Document Intelligence</em> 2019 </summary>
+    Dataset size: Train(800), Dev(100), Test(100). Abstract: OCR is inevitably linked to NLP since its final output is in text. Advances in document intelligence are driving the need for a unified technology that integrates OCR with various NLP tasks, especially semantic parsing. Since OCR and semantic parsing have been studied as separate tasks so far, the datasets for each task on their own are rich, while those for the integrated post-OCR parsing tasks are relatively insufficient. In this study, we publish a consolidated dataset for receipt parsing as the first step towards post-OCR parsing tasks. The dataset consists of thousands of Indonesian receipts, which contains images and box/text annotations for OCR, and multi-level semantic labels for parsing. The proposed dataset can be used to address various OCR and parsing tasks.
+  </details>
+
+* [FUNSD](https://arxiv.org/pdf/1905.13538.pdf), \[[Website](https://guillaumejaume.github.io/FUNSD/)\]
+  <details>
+  <summary> Guillaume Jaume, Hazım Kemal Ekenel, Jean-Philippe Thiran <em>ICDAR-OST</em> 2019 </summary>
+    Dataset size: Train(149), Test(50). Abstract: We present a new dataset for form understanding in noisy scanned documents (FUNSD) that aims at extracting and structuring the textual content of forms. The dataset comprises 199 real, fully annotated, scanned forms. The documents are noisy and vary widely in appearance, making form understanding (FoUn) a challenging task. The proposed dataset can be used for various tasks, including text detection, optical character recognition, spatial layout analysis, and entity labeling/linking. To the best of our knowledge, this is the first publicly available dataset with comprehensive annotations to address FoUn task. We also present a set of baselines and introduce metrics to evaluate performance on the FUNSD datase
+  </details>
+
+* [NIST](https://s3.amazonaws.com/nist-srd/SD2/users_guide_sd2.pdf), \[[Website](https://www.nist.gov/srd/nist-special-database-2)\] 
+  <details>
+  <summary> Darren Dimmick, Michael Garris, Charles Wilson, Patricia Flanagan</summary>
+    The documents in this database are 12 different tax forms from the IRS 1040 Package X for the year 1988. These include Forms 1040, 2106, 2441, 4562, and 6251 together with Schedules A, B, C, D, E, F, and SE. There are 900 simulated tax submissions (Forms 1040, 2106, 2441, 4562, and 6251 together with Schedules A, B, C, D, E, F, and SE). Suitable for both document processing and automated data capture research, development, and evaluation, the data set can be used for: a) forms identification, b) field isolation; locating the entry fields on the form, c) character segmentation: separating entry field values into characters, d) character recognition: identifying specific machine printed characters
+  </details>  
+
+* [Deepform](https://github.com/jstray/deepform), \[[Website](https://wandb.ai/deepform/political-ad-extraction/benchmark)\] 
+  <details>
+  <summary> Jonathan Stray, Nicholas Bardy </summary>
+    DeepForm aims to extract information from TV and cable political advertising disclosure forms using deep learning and provide a challenging journalism-relevant dataset for NLP/ML researchers. This public data is valuable to journalists but locked in PDFs. Through this benchmark, we hope to accelerate collaboration on the concrete task of making this data accessible and longer-term solutions for general information extraction from visually-structured documents in fields like medicine, climate science, social science, and beyond.
+  </details>  
+
+#### Chinese  
+
+* [EATEN: Entity-aware Attention for Single Shot Visual Text Extraction](https://arxiv.org/abs/2004.07464), \[[data](https://drive.google.com/u/0/uc?id=1o8JktPD7bS74tfjz-8dVcZq_uFS6YEGh&export=download)\], \[[code](https://github.com/beacandler/EATEN)\]  
+  <details>
+  <summary> He Guo, Xiameng Qin, Jiaming Liu, Junyu Han, Jingtuo Liu and Errui Ding <em>ICDAR</em> 2019 </summary>
+    Abstract: Extracting entity from images is a crucial part of many OCR applications, such as entity recognition of cards, invoices, and receipts. Most of the existing works employ classical detection and recognition paradigm. This paper proposes an Entity-aware Attention Text Extraction Network called EATEN, which is an end-to-end trainable system to extract the entities without any post-processing. In the proposed framework, each entity is parsed by its corresponding entity-aware decoder, respectively. Moreover, we innovatively introduce a state transition mechanism which further improves the robustness of entity extraction. In consideration of the absence of public benchmarks, we construct a dataset of almost 0.6 million images in three real-world scenarios (train ticket, passport and business card), which is publicly available at this https URL. To the best of our knowledge, EATEN is the first single shot method to extract entities from images. Extensive experiments on these benchmarks demonstrate the state-of-the-art performance of EATEN. 
+  </details>
+
+#### Polish 
+
+* [Results of the PolEval 2020 Shared Task 4: Information Extraction from Long Documents with Complex Layouts](http://2020.poleval.pl/files/poleval2020.pdf), \[[Website](http://2020.poleval.pl/tasks/task4/)\] 
+  <details>
+  <summary> Filip Graliński, Anna Wróblewska <em>Proceedings of the PolEval 2020 Workshop</em> 2020 </summary>
+    Dataset size: Train(1 628), Dev(548), Test(555). Description: The challenge is about information acquisition and inference in the field of natural language processing. Collecting information from real, long documents must deal with complex page layouts by integrating found entities along multiple pages and text sections, tables, plots, forms, etc. To encourage progress in deeper and more complex information extraction, we present a dataset in which systems have to find the most important information about different types of entities from formal documents. These units are not only classes from the systems for recognising units with a standard name (NER) (e.g. person, location or organisation), but also the roles of units in whole documents (e.g. chairman of the board, date of issue).
+  </details>  
+
+
+#### Multilanguage 
+
+* [Ghega dataset](https://arxiv.org/abs/1906.02427), \[[Website](https://machinelearning.inginf.units.it/data-and-tools/ghega-dataset)\] 
+  <details>
+  <summary> Vishal Sunder, Ashwin Srinivasan, Lovekesh Vig, Gautam Shroff, Rohit Rahul <em>arxiv</em> 2019 </summary>
+    The dataset is composed as follows. It contains two groups of documents: 110 data-sheets of electronic components and 136 patents. Each group is further divided in classes: data-sheets classes share the component type and producer; patents classes share the patent source.
+  </details>  
+
+
+## Useful links
+
+Data Augmentation:
+1. https://github.com/snorkel-team/snorkel 
+1. https://github.com/QData/TextAttack
+1. https://github.com/joke2k/faker
+1. https://github.com/benkeen/generatedata
+1. https://github.com/Belval/TextRecognitionDataGenerator 
+
+Related NLP topics: 
+1. [Named Entity Recognition (NER)](https://github.com/sebastianruder/NLP-progress/blob/master/english/named_entity_recognition.md)
+1. [Entity Linking (EL)](https://github.com/sebastianruder/NLP-progress/blob/master/english/entity_linking.md)
+1. [Template extraction](https://github.com/prit2596/NLP-Template-Extraction) 
+1. [Noun Phrase Canonicalization](https://github.com/sebastianruder/NLP-progress/blob/master/english/information_extraction.md#noun-phrase-canonicalization)
+
+Others:
+1. [CommonRegex](https://github.com/madisonmay/CommonRegex) - find all times, dates, links, phone numbers, emails, ip addresses, prices, hex colors, and credit card numbers in a string
+1. [Name Parser](https://github.com/derek73/python-nameparser) - parsing human names into their individual components 
+1. [pyahocorasick](https://github.com/WojciechMula/pyahocorasick) - is a fast and memory efficient library for exact or approximate multi-pattern string search meaning that you can find multiple key strings occurrences at once in some input text
+1. [deepmatcher](https://github.com/anhaidgroup/deepmatcher) - performing entity and text matching using deep learning
+1. [bootleg](http://hazyresearch.stanford.edu/bootleg/) - self-supervised named entity disambiguation (NED) system that links mentions in text to entities in a knowledge base
+
