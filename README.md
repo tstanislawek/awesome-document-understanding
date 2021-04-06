@@ -136,7 +136,7 @@ Documents are a core part of many businesses in many fields such as law, finance
 1. https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7991564 - PDF tools validation
 
 
-## Conferences / workshops / journals
+## Conferences, workshops, journals
 
 [Back to top](#table-of-contents)
 
