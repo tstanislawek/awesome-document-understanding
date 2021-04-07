@@ -20,8 +20,8 @@ A curated list of resources for Document Understanding (DU) topic related to Int
     1. [Optical Character Recogtion (OCR)](topics/ocr/README.md)
     1. [Key Information Extraction (KIE)](topics/kie/README.md)
     1. [Document Layout Analysis (DLA)](topics/dla/README.md)
-    1. [Scientific Document Understanding (SDU)](topics/sdu/README.md)  
     1. [Document Question Answering (DQA)](topics/dqa/README.md)  
+    1. [Scientific Document Understanding (SDU)](topics/sdu/README.md)       
     1. [Related](topics/related/README.md)  
         1. [General](topics/related/README.md#general) 
         1. [Tabular Data Comprehension (TDC)](topics/related/README.md#tabular-data-comprehension)
@@ -29,7 +29,7 @@ A curated list of resources for Document Understanding (DU) topic related to Int
 1. [Others](#others)
     1. [Resources](#resources)
         1. [Datasets for Pre-training Language Models](#datasets-for-pre-training-language-models)
-        1. [PDF processing tools](#pdf-processing-tools)        
+        1. [PDF processing tools](#pdf-processing-tools)
     1. [Conferences / workshops / journals](#conferences-workshops-journals) 
     1. [Blogs](#blogs)
     1. [Inspirations](#inspirations) 
@@ -108,8 +108,8 @@ Documents are a core part of many businesses in many fields such as law, finance
 * [Optical Character Recogtion (OCR)](topics/ocr/README.md)
 * [Key Information Extraction (KIE)](topics/kie/README.md)
 * [Document Layout Analysis (DLA)](topics/dla/README.md)
-* [Scientific Document Understanding (SDU)](topics/sdu/README.md)
 * [Document Question Answering (DQA)](topics/dqa/README.md)
+* [Scientific Document Understanding (SDU)](topics/sdu/README.md)  
 * [Related](topics/related/README.md)
   * [General](topics/related/README.md#general) 
   * [Tabular Data Comprehension (TDC)](topics/related/README.md#tabular-data-comprehension)
@@ -131,6 +131,7 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 #### PDF processing tools
 
+1. [pawls](https://github.com/allenai/pawls) - PDF Annotations with Labels and Structure is software that makes it easy to collect a series of annotations associated with a PDF document
 1. [pdfplumber](https://github.com/jsvine/pdfplumber) - Plumb a PDF for detailed information about each text character, rectangle, and line. Plus: Table extraction and visual debugging
 1. [Pdfminer.six](https://github.com/pdfminer/pdfminer.six) - Pdfminer.six is a community maintained fork of the original PDFMiner. It is a tool for extracting information from PDF documents. It focuses on getting and analyzing text data. 
 1. [Layout Parser](https://github.com/Layout-Parser/layout-parser) - Layout Parser is a deep learning based tool for document image layout analysis tasks.

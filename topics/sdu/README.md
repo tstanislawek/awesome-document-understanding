@@ -22,13 +22,20 @@
   </details>
 
 
-* [A New Neural Search and Insights Platform forNavigating and Organizing AI Research](https://arxiv.org), \[[code/Website](https://github.com/)\]
+* [A New Neural Search and Insights Platform for Navigating and Organizing AI Research](https://www.aclweb.org/anthology/2020.sdp-1.23.pdf), \[[Website](https://search.zeta-alpha.com/)\]
   <details>
   <summary> Marzieh Fadaee, Olga Gureenkova, Fernando Rejon Barrera, Carsten Schnober, Wouter Weerkamp, Jakub Zavrel <em>arxiv</em> 2020 </summary>
     To provide AI researchers with modern tools for dealing with the explosive growth of the research literature in their field, we introduce a new platform, AI Research Navigator, that combines classical keyword search with neural retrieval to discover and organize relevant literature. The system provides search at multiple levels of textual granularity, from sentences to aggregations across documents, both in natural language and through navigation in a domain-specific Knowledge Graph. We give an overview of the overall architecture of the system and of the components for document analysis, question answering, search, analytics, expert search, and recommendations. 
   </details>
 
 ### Datasets
+
+* [SciREX: A Challenge Dataset for Document-Level Information Extraction](https://www.aclweb.org/anthology/2020.acl-main.670.pdf) \[[code/data](https://github.com/allenai/SciREX)\]
+  <details>
+  <summary> Sarthak Jain, Madeleine van Zuylen, Hannaneh Hajishirzi, Iz Beltagy <em>ACL</em> 2020  </summary>
+    Extracting information from full documents is an important problem in many domains, but most previous work focus on identifying relationships within a sentence or a paragraph. It is challenging to create a large-scale information extraction (IE) dataset at the document level since it requires an understanding of the whole document to annotate entities and their document-level relationships that usually span beyond sentences or even sections. In this paper, we introduce SciREX, a document level IE dataset that encompasses multiple IE tasks, including salient entity identification and document level N-ary relation identification from scientific articles. We annotate our dataset by integrating automatic and human annotations, leveraging existing scientific knowledge resources. We develop a neural model as a strong baseline that extends previous state-of-the-art IE models to document-level IE. Analyzing the model performance shows a significant gap between human performance and current baselines, inviting the community to use our dataset as a challenge to develop document-level IE models.  
+  </details>
+
 * [TableArXiv: Scientific Table Search Using Keyword Queries](https://arxiv.org/abs/1707.03423) \[[Website](http://boston.lti.cs.cmu.edu/eager/table-arxiv/)\]
   <details>
   <summary> Kyle Yingkai Gao, Jamie Callan <em>arxiv</em> 2017  </summary>

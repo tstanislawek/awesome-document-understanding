@@ -67,6 +67,12 @@
     Computer vision with state-of-the-art deep learning models has achieved huge success in the field of Optical Character Recognition (OCR) including text detection and recognition tasks recently. However, Key Information Extraction (KIE) from documents as the downstream task of OCR, having a large number of use scenarios in real-world, remains a challenge because documents not only have textual features extracting from OCR systems but also have semantic visual features that are not fully exploited and play a critical role in KIE. Too little work has been devoted to efficiently make full use of both textual and visual features of the documents. In this paper, we introduce PICK, a framework that is effective and robust in handling complex documents layout for KIE by combining graph learning with graph convolution operation, yielding a richer semantic representation containing the textual and visual features and global layout without ambiguity. Extensive experiments on real-world datasets have been conducted to show that our method outperforms baselines methods by significant margins.
   </details>
 
+* [Attention-Based Graph Neural Network with Global Context Awareness for Document Understanding](https://www.aclweb.org/anthology/2020.ccl-1.79.pdf)
+  <details>
+  <summary> Yuan Hua, Z. Huang, J. Guo, Weidong Qiu <em>CNCL</em> 2020 </summary>
+    Information extraction from documents such as receipts or invoices is a fundamental and crucial step for office automation. Many approaches focus on extracting entities and relationships from plain texts, however, when it comes to document images, such demand becomes quite challenging since visual and layout information are also of great significance to help tackle this problem. In this work, we propose the attention-based graph neural network to combine textual and visual information from document images.Moreover, the global node is introduced in our graph construction algorithm which is used as a virtual hub to collect the information from all the nodes and edges to help improve the performance. Extensive experiments on real-world datasets show that our method outperforms baseline methods by significant margins. 
+  </details>
+
 * [Towards a Multi-modal, Multi-task Learning based Pre-training Framework for Document Representation Learning](https://arxiv.org/pdf/2009.14457.pdf)
   <details>
   <summary> Subhojeet Pramanik, Shashank Mujumdar, Hima Patel <em>arxiv</em> 2020 </summary>
