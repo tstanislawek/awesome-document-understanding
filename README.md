@@ -17,7 +17,7 @@ A curated list of resources for Document Understanding (DU) topic related to Int
 
 1. [Introduction](#introduction) 
 1. [Research topics](#research-topics)
-    1. [Optical Character Recogtion (OCR)](topics/ocr/README.md)
+    1. [Optical Character Recognition (OCR)](topics/ocr/README.md)
     1. [Key Information Extraction (KIE)](topics/kie/README.md)
     1. [Document Layout Analysis (DLA)](topics/dla/README.md)
     1. [Document Question Answering (DQA)](topics/dqa/README.md)  
