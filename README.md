@@ -173,6 +173,7 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 [Back to top](#table-of-contents)
 
+1. [Document Form Extraction](https://www.crosstab.io/product-comparisons/document-form-extraction), 2021
 1. [How to automate processes with unstructured data](https://levity.ai/blog/automate-processes-with-unstructured-data), 2021
 1. [Introducing TILT – Applica’s revolutionary new language model](https://applica.ai/2021/03/12/introducing-tilt-applicas-revolutionary-new-language-model/), 2021
 1. [A Comprehensive Guide to OCR with RPA and Document Understanding](https://nanonets.com/blog/ocr-with-rpa-and-document-understanding-uipath/), 2021
