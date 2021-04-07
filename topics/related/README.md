@@ -56,7 +56,17 @@
 
 [Back to top](#table-of-contents)
 
-#### Papers
+### Papers
+
+#### 2021
+
+* [Open Domain Question Answering over Tables via Dense Retrieval](https://arxiv.org/pdf/2103.12011.pdf), \[[code](https://github.com/google-research/tapas)\]
+  <details>
+  <summary> Jonathan Herzig, Thomas Müller, Syrine Krichene, Julian Martin Eisenschlos  <em>NAACL</em> 2021 </summary>
+    Recent advances in open-domain QA have led to strong models based on dense retrieval, but only focused on retrieving textual passages. In this work, we tackle open-domain QA over tables for the first time, and show that retrieval can be improved by a retriever designed to handle tabular context. We present an effective pre-training procedure for our retriever and improve retrieval quality with mined hard negatives. As relevant datasets are missing, we extract a subset of NATURAL QUESTIONS (Kwiatkowski et al., 2019) into a Table QA dataset. We find that our retriever improves retrieval results from 72.0 to 81.1 recall@10 and end-to-end QA results from 33.8 to 37.7 exact match, over a BERT based retriever
+  </details>
+  
+ #### 2020
 
 * **[TURL: Table Understanding through Representation Learning](https://arxiv.org/pdf/2006.14806.pdf)**, \[[code](https://github.com/sunlab-osu/TURL)\]
   <details>
@@ -82,6 +92,14 @@
     Tables are a powerful and popular tool for organizing and manipulating data. A vast number of tables can be found on the Web, which represents a valuable knowledge resource. The objective of this survey is to synthesize and present two decades of research on web tables. In particular, we organize existing literature into six main categories of information access tasks: table extraction, table interpretation, table search, question answering, knowledge base augmentation, and table augmentation. For each of these tasks, we identify and describe seminal approaches, present relevant resources, and point out interdependencies among the different tasks. 
   </details>
 
+* [Structure-aware Pre-training for Table Understanding with Tree-based Transformers](https://arxiv.org/pdf/2010.12537.pdf)
+  <details>
+  <summary> Zhiruo Wang et al. <em>arXiv</em> 2020 </summary>
+    Tables are widely used with various structures to organize and present data. Recent attempts on table understanding mainly focus on relational tables, yet overlook to other common table structures. In this paper, we propose TUTA, a unified pre-training architecture for understanding generally structured tables. Since understanding a table needs to leverage both spatial, hierarchical, and semantic information, we adapt the self-attention strategy with several key structure-aware mechanisms. First, we propose a novel tree-based structure called a bi-dimensional coordinate tree, to describe both the spatial and hierarchical information in tables. Upon this, we extend the pre-training architecture with two core mechanisms, namely the tree-based attention and tree-based position embedding. Moreover, to capture table information in a progressive manner, we devise three pre-training objectives to enable representations at the token, cell, and table levels. TUTA pre-trains on a wide range of unlabeled tables and fine-tunes on a critical task in the field of table structure understanding, i.e. cell type classification. Experiment results show that TUTA is highly effective, achieving state-of-the-art on four well-annotated cell type classification datasets.
+  </details>
+
+#### 2019
+
 * [Auto-completion for Data Cells in Relational Tables](https://arxiv.org/pdf/1909.03443.pdf)
   <details>
   <summary> Shuo Zhang, Krisztian Balog <em>CIKM</em> 2019 </summary>
@@ -101,6 +119,7 @@
     Automatically annotating column types with knowledge base (KB) concepts is a critical task to gain a basic understanding of web tables. Current methods rely on either table metadata like column name or entity correspondences of cells in the KB, and may fail to deal with growing web tables with incomplete meta information. In this paper we propose a neural network based column type annotation framework named ColNet which is able to integrate KB reasoning and lookup with machine learning and can automatically train Convolutional Neural Networks for prediction. The prediction model not only considers the contextual semantics within a cell using word representation, but also embeds the semantics of a column by learning locality features from multiple cells. The method is evaluated with DBPedia and two different web table datasets, T2Dv2 from the general Web and Limaye from Wikipedia pages, and achieves higher performance than the state-of-the-art approaches.  
   </details>
 
+#### Older
 
 * [EntiTables: Smart Assistance for Entity-Focused Tables](https://arxiv.org/pdf/1708.08721.pdf), \[[code](https://github.com/iai-group/sigir2017-table)\]
   <details>
@@ -108,10 +127,22 @@
     Tables are among the most powerful and practical tools for organizing and working with data. Our motivation is to equip spreadsheet programs with smart assistance capabilities. We concentrate on one particular family of tables, namely, tables with an entity focus. We introduce and focus on two specifc tasks: populating rows with additional instances (entities) and populating columns with new headings. We develop generative probabilistic models for both tasks. For estimating the components of these models, we consider a knowledge base as well as a large table corpus. Our experimental evaluation simulates the various stages of the user entering content into an actual table. A detailed analysis of the results shows that the models' components are complimentary and that our methods outperform existing approaches from the literature.
   </details>
 
-#### Datasets 
+### Datasets 
 
-##### Information retrieval from tables
+#### Information retrieval from tables
 
+
+* [Open Question Answering over Tables and Text](https://arxiv.org/pdf/2010.10439.pdf), \[[code](https://github.com/wenhuchen/OTT-QA)\] 
+  <details>
+  <summary> Wenhu Chen et al. <em>ICLR</em> 2021 </summary>
+     In open question answering (QA), the answer to a question is produced by retrieving and then analyzing documents that might contain answers to the question. Most open QA systems have considered only retrieving information from unstructured text. Here we consider for the first time open QA over both tabular and textual data and present a new large-scale dataset Open Table-Text Question Answering (OTT-QA) to evaluate performance on this task. Most questions in OTT-QA require multi-hop inference across tabular data and unstructured text, and the evidence required to answer a question can be distributed in different ways over these two types of input, making evidence retrieval challenging---our baseline model using an iterative retriever and BERT-based reader achieves an exact match score less than 10%. We then propose two novel techniques to address the challenge of retrieving and aggregating evidence for OTT-QA. The first technique is to use "early fusion" to group multiple highly relevant tabular and textual units into a fused block, which provides more context for the retriever to search for. The second technique is to use a cross-block reader to model the cross-dependency between multiple retrieved evidences with global-local sparse attention. Combining these two techniques improves the score significantly, to above 27%. 
+
+* [FeTaQA: Free-form Table Question Answering](https://arxiv.org/pdf/2104.00369.pdf), \[[code](https://github.com/Yale-LILY/FeTaQA)\] 
+  <details>
+  <summary> Linyong Nan et al. <em>arXiv</em> 2021 </summary>
+     Existing table question answering datasets contain abundant factual questions that primarily evaluate the query and schema comprehension capability of a system, but they fail to include questions that require complex reasoning and integration of information due to the constraint of the associated short-form answers. To address these issues and to demonstrate the full challenge of table question answering, we introduce FeTaQA, a new dataset with 10K Wikipedia-based {table, question, free-form answer, supporting table cells} pairs. FeTaQA yields a more challenging table question answering setting because it requires generating free-form text answers after retrieval, inference, and integration of multiple discontinuous facts from a structured knowledge source. Unlike datasets of generative QA over text in which answers are prevalent with copies of short text spans from the source, answers in our dataset are human-generated explanations involving entities and their high-level relations. We provide two benchmark methods for the proposed task: a pipeline method based on semantic-parsing-based QA systems and an end-to-end method based on large pretrained text generation models, and show that FeTaQA poses a challenge for both methods. 
+  
+  
 * [TabFact: A Large-scale Dataset for Table-based Fact Verification](https://openreview.net/pdf?id=rkeJRhNYDH), \[[code](https://github.com/wenhuchen/Table-Fact-Checking)\] 
   <details>
   <summary> Wenhu Chen, Hongmin Wang, Jianshu Chen, Yunkai Zhang, Hong Wang,Shiyang Li, Xiyou Zhou, William Yang Wang <em>ICLR</em> 2020 </summary>
@@ -130,7 +161,7 @@
     Two important aspects of semantic parsing for question answering are the breadth of the knowledge source and the depth of logical compositionality. While existing work trades off one aspect for another, this paper simultaneously makes progress on both fronts through a new task: answering complex questions on semi-structured tables using question-answer pairs as supervision. The central challenge arises from two compounding factors: the broader domain results in an open-ended set of relations, and the deeper compositionality results in a combinatorial explosion in the space of logical forms. We propose a logical-form driven parsing algorithm guided by strong typing constraints and show that it obtains significant improvements over natural baselines. For evaluation, we created a new dataset of 22,033 complex questions on Wikipedia tables, which is made publicly available. 
   </details>
 
-##### Collections of not annotated tables
+#### Collections of not annotated tables
 
 * **[A Large Public Corpus of Web Tables containing Time and Context Metadata](http://gdac.uqam.ca/WWW2016-Proceedings/companion/p75.pdf)**, \[[page](http://webdatacommons.org/webtables/)]
   <details>
