@@ -48,6 +48,14 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 ### Papers
 
+#### 2021 
+
+* [Automating Paperwork](https://edwardbenson.com/automating-paperwork) 
+  <details>
+  <summary> Ted Benson <em>-</em> 2021 </summary>
+    Automating Paperwork is a practical, no-hype technical guide for business leaders, product managers, and operations teams who are pursuing a document automation initiative at their company. Its goal is to provide an end-to-end tour of the technical decisions and tradeoffs involved so that you can prepare for success, know what to expect, and ask the right questions of engineers and vendors along the way.
+  </details>
+
 #### 2020 
 
 * **[A Survey of Deep Learning Approaches for OCR and Document Understanding](https://arxiv.org/abs/2011.13534)**

@@ -10,6 +10,12 @@
 
 #### 2021
 
+* [Variational Transformer Networks for Layout Generation](https://arxiv.org/pdf/2104.02416.pdf) 
+  <details>
+  <summary> Diego Martin Arroyo, Janis Postels, Federico Tombari <em>CVPR</em> 2021 </summary>
+    Generative models able to synthesize layouts of different kinds (e.g. documents, user interfaces or furniture arrangements) are a useful tool to aid design processes and as a first step in the generation of synthetic data, among other tasks. We exploit the properties of self-attention layers to capture high level relationships between elements in a layout, and use these as the building blocks of the well-known Variational Autoencoder (VAE) formulation. Our proposed Variational Transformer Network (VTN) is capable of learning margins, alignments and other global design rules without explicit supervision. Layouts sampled from our model have a high degree of resemblance to the training data, while demonstrating appealing diversity. In an extensive evaluation on publicly available benchmarks for different layout types VTNs achieve state-of-the-art diversity and perceptual quality. Additionally, we show the capabilities of this method as part of a document layout detection pipeline. 
+  </details>
+
 * [GRIT: Generative Role-filler Transformers for Document-level Event Entity Extraction](https://arxiv.org/pdf/2008.09249.pdf)
   <details>
   <summary> Xinya Du, Alexander M. Rush, Claire Cardie <em>EACL</em> 2021 </summary>
