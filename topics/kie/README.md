@@ -60,6 +60,7 @@
   <details>
   <summary> Bodhisattwa Prasad Majumder, Navneet Potti, Sandeep Tata, James Bradley Wendt, Qi Zhao, Marc Najork <em>ACL</em> 2020 </summary>
     We propose a novel approach using representation learning for tackling the problem of extracting structured information from form-like document images. We propose an extraction system that uses knowledge of the types of the target fields to generate extraction candidates and a neural network architecture that learns a dense representation of each candidate based on neighboring words in the document. These learned representations are not only useful in solving the extraction task for unseen document templates from two different domains but are also interpretable, as we show using loss cases.
+  </details>
 
 * **[PICK: Processing Key Information Extraction from Documents using Improved Graph Learning-Convolutional Networks](https://arxiv.org/abs/2004.07464)**, \[[code](https://github.com/wenwenyu/PICK-pytorch)\]
   <details>
@@ -276,18 +277,19 @@
   <details>
   <summary> Vishal Sunder, Ashwin Srinivasan, Lovekesh Vig, Gautam Shroff, Rohit Rahul <em>arxiv</em> 2019 </summary>
     The dataset is composed as follows. It contains two groups of documents: 110 data-sheets of electronic components and 136 patents. Each group is further divided in classes: data-sheets classes share the component type and producer; patents classes share the patent source.
-  </details>  
+  </details>
 
 
 ## Useful links
 
 Data Augmentation:
 1. https://github.com/makcedward/nlpaug
-1. https://github.com/snorkel-team/snorkel 
+1. https://github.com/dsfsi/textaugment 
 1. https://github.com/QData/TextAttack
 1. https://github.com/joke2k/faker
 1. https://github.com/benkeen/generatedata
 1. https://github.com/Belval/TextRecognitionDataGenerator 
+1. https://github.com/snorkel-team/snorkel
 
 Related NLP topics: 
 1. [Named Entity Recognition (NER)](https://github.com/sebastianruder/NLP-progress/blob/master/english/named_entity_recognition.md)
