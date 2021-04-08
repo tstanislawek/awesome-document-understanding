@@ -282,6 +282,7 @@
 ## Useful links
 
 Data Augmentation:
+1. https://github.com/makcedward/nlpaug
 1. https://github.com/snorkel-team/snorkel 
 1. https://github.com/QData/TextAttack
 1. https://github.com/joke2k/faker
