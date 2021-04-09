@@ -192,6 +192,12 @@
 
 [Back to top](#table-of-contents)
 
+* [Towards Quantifying the Effects of Robotic Process Automation](http://dbis.eprints.uni-ulm.de/1959/1/fopas_wew_2020a.pdf) 
+  <details>
+  <summary> Judith Wewerka, Manfred Reichert <em> EDOCW </em> 2020 </summary>
+    Robotic Process Automation (RPA) is the automation of rule-based routine processes to increase process efficiency and to reduce process costs. In practice, however, RPA is often applied without knowledge of the concrete effects its introduction will have on the automated process and the involved stakeholders. Accordingly, literature on the quantitative effects of RPA is scarce. The objective of this paper is to provide empirical insights into improvements and deteriorations of business processes achieved in twelve RPA projects in the automotive industry. The results indicate that the positive benefits promised in literature are not always achieved in practice. In particular, shorter case duration and better quality are not confirmed by the empirical data gathered in the considered RPA projects. These quantitative insights constitute a valuable contribution to the currently rather qualitative literature on RPA.
+  </details>
+
 * [Automated Discovery of Data Transformations for Robotic Process Automation](https://arxiv.org/pdf/2001.01007.pdf)
   <details>
   <summary> Volodymyr Leno, Marlon Dumas, Marcello La Rosa, Fabrizio Maria Maggi, Artem Polyvyanyy <em> AAAI-20 workshop on IPA </em> 2020 </summary>
