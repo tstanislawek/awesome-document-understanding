@@ -63,8 +63,6 @@
     Extracting the body text from a PDF document is an important but surprisingly difficult task. The reason is that PDF is a layout-based format which specifies the fonts and positions of the individual characters rather than the semantic units of the text (e.g., words or paragraphs) and their role in the document (e.g., body text or caption). There is an abundance of extraction tools, but their quality and the range of their functionality are hard to determine. In this paper, we show how to construct a high-quality benchmark of principally arbitrary size from parallel TeX and PDF data. We construct such a benchmark of 12,098 scientific articles from arXiv.org and make it publicly available. We establish a set of criteria for a clean and independent assessment of the semantic abilities of a given extraction tool. We provide an extensive evaluation of 14 state-of-the-art tools for text extraction from PDF on our benchmark according to our criteria. We include our own method, Icecite, which significantly outperforms all other tools, but is still not perfect. We outline the remaining steps necessary to finally make text extraction from PDF a "solved problem".
   </details>
 
-1.  - PDF tools validation
-
 * [Evaluation of Deep Convolutional Nets for Document Image Classification and Retrieval](https://arxiv.org/pdf/1502.07058.pdf)
   <details>
   <summary> Adam W. Harley, Alex Ufkes, Konstantinos G. Derpanis <em>ICDAR</em> 2015 </summary>
