@@ -131,17 +131,17 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 #### PDF processing tools
 
-1. [pawls](https://github.com/allenai/pawls) - PDF Annotations with Labels and Structure is software that makes it easy to collect a series of annotations associated with a PDF document
-1. [pdfplumber](https://github.com/jsvine/pdfplumber) - Plumb a PDF for detailed information about each text character, rectangle, and line. Plus: Table extraction and visual debugging
-1. [Pdfminer.six](https://github.com/pdfminer/pdfminer.six) - Pdfminer.six is a community maintained fork of the original PDFMiner. It is a tool for extracting information from PDF documents. It focuses on getting and analyzing text data 
-1. [Layout Parser](https://github.com/Layout-Parser/layout-parser) - Layout Parser is a deep learning based tool for document image layout analysis tasks
-1. [Born digital pdf scanner](https://github.com/applicaai/digital-born-pdf-scanner) - checking if pdf is born-digital
-1. [Tabulo](https://github.com/interviewBubble/Tabulo) - Table extraction from images
-1. [OCRmyPDF](https://github.com/jbarlow83/OCRmyPDF) - OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched or copy-pasted
-1. [PDFBox](https://github.com/apache/pdfbox) - The Apache PDFBox library is an open source Java tool for working with PDF documents. This project allows creation of new PDF documents, manipulation of existing documents and the ability to extract content from documents
-1. [PdfPig](https://github.com/UglyToad/PdfPig) - This project allows users to read and extract text and other content from PDF files. In addition the library can be used to create simple PDF documents containing text and geometrical shapes. This project aims to port PDFBox to C#
-1. [parsing-prickly-pdfs](https://porter.io/github.com/jsfenfen/parsing-prickly-pdfs) - Resources and worksheet for the NICAR 2016 workshop of the same name
-1. https://github.com/ckorzen/pdf-text-extraction-benchmark - PDF tools benchmark
+1. [pawls](https://github.com/allenai/pawls) ![](https://img.shields.io/github/stars/allenai/pawls.svg?style=social) - PDF Annotations with Labels and Structure is software that makes it easy to collect a series of annotations associated with a PDF document
+1. [pdfplumber](https://github.com/jsvine/pdfplumber) ![](https://img.shields.io/github/stars/jsvine/pdfplumber.svg?style=social) - Plumb a PDF for detailed information about each text character, rectangle, and line. Plus: Table extraction and visual debugging
+1. [Pdfminer.six](https://github.com/pdfminer/pdfminer.six) ![](https://img.shields.io/github/stars/pdfminer/pdfminer.six.svg?style=social) - Pdfminer.six is a community maintained fork of the original PDFMiner. It is a tool for extracting information from PDF documents. It focuses on getting and analyzing text data 
+1. [Layout Parser](https://github.com/Layout-Parser/layout-parser) ![](https://img.shields.io/github/stars/Layout-Parser/layout-parser.svg?style=social) - Layout Parser is a deep learning based tool for document image layout analysis tasks
+1. [Tabulo](https://github.com/interviewBubble/Tabulo) ![](https://img.shields.io/github/stars/interviewBubble/Tabulo.svg?style=social) - Table extraction from images
+1. [OCRmyPDF](https://github.com/jbarlow83/OCRmyPDF) ![](https://img.shields.io/github/stars/jbarlow83/OCRmyPDF.svg?style=social) - OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched or copy-pasted
+1. [PDFBox](https://github.com/apache/pdfbox) ![](https://img.shields.io/github/stars/apache/pdfbox.svg?style=social) - The Apache PDFBox library is an open source Java tool for working with PDF documents. This project allows creation of new PDF documents, manipulation of existing documents and the ability to extract content from documents
+1. [PdfPig](https://github.com/UglyToad/PdfPig) ![](https://img.shields.io/github/stars/UglyToad/PdfPig.svg?style=social) - This project allows users to read and extract text and other content from PDF files. In addition the library can be used to create simple PDF documents containing text and geometrical shapes. This project aims to port PDFBox to C#
+1. [parsing-prickly-pdfs](https://porter.io/github.com/jsfenfen/parsing-prickly-pdfs) ![](https://img.shields.io/github/stars/jsfenfen/parsing-prickly-pdfs.svg?style=social) - Resources and worksheet for the NICAR 2016 workshop of the same name
+1. [pdf-text-extraction-benchmark](https://github.com/ckorzen/pdf-text-extraction-benchmark) ![](https://img.shields.io/github/stars/ckorzen/pdf-text-extraction-benchmark.svg?style=social) - PDF tools benchmark
+1. [Born digital pdf scanner](https://github.com/applicaai/digital-born-pdf-scanner) ![](https://img.shields.io/github/stars/applicaai/digital-born-pdf-scanner.svg?style=social) - checking if pdf is born-digital   
 1. https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7991564 - PDF tools validation
 
 
@@ -371,26 +371,26 @@ Red: text block, Blue: figure.
 **Domain**
 1. https://github.com/zacharywhitley/awesome-ocr ![](https://img.shields.io/github/stars/zacharywhitley/awesome-ocr.svg?style=social)
 1. https://github.com/kba/awesome-ocr ![](https://img.shields.io/github/stars/kba/awesome-ocr.svg?style=social)
-1. https://github.com/bikash/DocumentUnderstanding
-1. https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics 
-1. https://github.com/icoxfog417/awesome-financial-nlp 
-1. https://github.com/harpribot/awesome-information-retrieval 
-1. https://github.com/roomylee/awesome-relation-extraction 
-1. https://github.com/caufieldjh/awesome-bioie 
-1. https://github.com/BobLd/DocumentLayoutAnalysis
+1. https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics ![](https://img.shields.io/github/stars/Liquid-Legal-Institute/Legal-Text-Analytics.svg?style=social)
+1. https://github.com/icoxfog417/awesome-financial-nlp ![](https://img.shields.io/github/stars/icoxfog417/awesome-financial-nlp.svg?style=social)
+1. https://github.com/harpribot/awesome-information-retrieval ![](https://img.shields.io/github/stars/harpribot/awesome-information-retrieval.svg?style=social)
+1. https://github.com/roomylee/awesome-relation-extraction ![](https://img.shields.io/github/stars/roomylee/awesome-relation-extraction.svg?style=social)
+1. https://github.com/caufieldjh/awesome-bioie ![](https://img.shields.io/github/stars/caufieldjh/awesome-bioie.svg?style=social)
+1. https://github.com/BobLd/DocumentLayoutAnalysis ![](https://img.shields.io/github/stars/BobLd/DocumentLayoutAnalysis.svg?style=social)
+1. https://github.com/bikash/DocumentUnderstanding ![](https://img.shields.io/github/stars/bikash/DocumentUnderstanding.svg?style=social)
 
 **General AI/DL/ML** 
-1. https://github.com/EthicalML/awesome-production-machine-learning
-1. https://github.com/eugeneyan/applied-ml 
-1. https://github.com/awesomedata/awesome-public-datasets 
-1. https://github.com/keon/awesome-nlp 
-1. https://github.com/thunlp/PLMpapers
-1. https://github.com/jbhuang0604/awesome-computer-vision#awesome-lists  
-1. http://datasets.visionbib.com/index.html
-1. https://github.com/papers-we-love/papers-we-love 
-1. https://github.com/BAILOOL/DoYouEvenLearn
-1. https://github.com/hibayesian/awesome-automl-papers
+1. https://github.com/EthicalML/awesome-production-machine-learning ![](https://img.shields.io/github/stars/EthicalML/awesome-production-machine-learning.svg?style=social)
+1. https://github.com/eugeneyan/applied-ml ![](https://img.shields.io/github/stars/eugeneyan/applied-ml.svg?style=social)
+1. https://github.com/awesomedata/awesome-public-datasets ![](https://img.shields.io/github/stars/awesomedata/awesome-public-datasets.svg?style=social)
+1. https://github.com/keon/awesome-nlp ![](https://img.shields.io/github/stars/keon/awesome-nlp.svg?style=social)
+1. https://github.com/thunlp/PLMpapers ![](https://img.shields.io/github/stars/thunlp/PLMpapers.svg?style=social)
+1. https://github.com/jbhuang0604/awesome-computer-vision#awesome-lists ![](https://img.shields.io/github/stars/jbhuang0604/awesome-computer-vision.svg?style=social)
+1. https://github.com/papers-we-love/papers-we-love ![](https://img.shields.io/github/stars/papers-we-love/papers-we-love.svg?style=social)
+1. https://github.com/BAILOOL/DoYouEvenLearn ![](https://img.shields.io/github/stars/BAILOOL/DoYouEvenLearn.svg?style=social)
+1. https://github.com/hibayesian/awesome-automl-papers ![](https://img.shields.io/github/stars/hibayesian/awesome-automl-papers.svg?style=social)
+1. http://datasets.visionbib.com/index.html ![](https://img.shields.io/github/stars/kba/awesome-ocr.svg?style=social)
 
 **More awesome**
-1. https://github.com/sindresorhus/awesome 
-1. https://github.com/vinta/awesome-python 
+1. https://github.com/sindresorhus/awesome ![](https://img.shields.io/github/stars/sindresorhus/awesome.svg?style=social)
+1. https://github.com/vinta/awesome-python ![](https://img.shields.io/github/stars/awesome-python.svg?style=social)
