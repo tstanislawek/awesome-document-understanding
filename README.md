@@ -378,6 +378,7 @@ Red: text block, Blue: figure.
 1. https://github.com/caufieldjh/awesome-bioie ![](https://img.shields.io/github/stars/caufieldjh/awesome-bioie.svg?style=social)
 1. https://github.com/BobLd/DocumentLayoutAnalysis ![](https://img.shields.io/github/stars/BobLd/DocumentLayoutAnalysis.svg?style=social)
 1. https://github.com/bikash/DocumentUnderstanding ![](https://img.shields.io/github/stars/bikash/DocumentUnderstanding.svg?style=social)
+1. https://github.com/HelloRusk/entity-related-papers ![](https://img.shields.io/github/stars/HelloRusk/entity-related-papers.svg?style=social)
 
 **General AI/DL/ML** 
 1. https://github.com/EthicalML/awesome-production-machine-learning ![](https://img.shields.io/github/stars/EthicalML/awesome-production-machine-learning.svg?style=social)
@@ -393,4 +394,4 @@ Red: text block, Blue: figure.
 
 **More awesome**
 1. https://github.com/sindresorhus/awesome ![](https://img.shields.io/github/stars/sindresorhus/awesome.svg?style=social)
-1. https://github.com/vinta/awesome-python ![](https://img.shields.io/github/stars/awesome-python.svg?style=social)
+1. https://github.com/vinta/awesome-python ![](https://img.shields.io/github/stars/vinta/awesome-python.svg?style=social)
