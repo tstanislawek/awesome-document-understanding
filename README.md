@@ -142,7 +142,6 @@ Documents are a core part of many businesses in many fields such as law, finance
 1. [parsing-prickly-pdfs](https://porter.io/github.com/jsfenfen/parsing-prickly-pdfs) ![](https://img.shields.io/github/stars/jsfenfen/parsing-prickly-pdfs.svg?style=social) - Resources and worksheet for the NICAR 2016 workshop of the same name
 1. [pdf-text-extraction-benchmark](https://github.com/ckorzen/pdf-text-extraction-benchmark) ![](https://img.shields.io/github/stars/ckorzen/pdf-text-extraction-benchmark.svg?style=social) - PDF tools benchmark
 1. [Born digital pdf scanner](https://github.com/applicaai/digital-born-pdf-scanner) ![](https://img.shields.io/github/stars/applicaai/digital-born-pdf-scanner.svg?style=social) - checking if pdf is born-digital   
-1. https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7991564 - PDF tools validation
 
 
 ## Conferences, workshops
