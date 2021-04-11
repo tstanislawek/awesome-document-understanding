@@ -5,7 +5,7 @@ A curated list of resources for Document Understanding (DU) topic related to Int
 **Note 1: bolded positions are more important then others.**
 
 **Note 2: due to the novelty of the field, this list is under construction - contributions are welcome (thank you in advance!).** Please remember to use following convention: 
-* [Title of a publication / dataset / resource title](https://arxiv.org), \[[code/data/Website](https://github.com/ ![](https://img.shields.io/github/stars/example.svg?style=social))\] 
+* [Title of a publication / dataset / resource title](https://arxiv.org), \[[code/data/Website](https://github.com/) ![](https://img.shields.io/github/stars/example.svg?style=social)\] 
   <details>
   <summary> List of authors <em>Conference/Journal name</em> Year </summary>
     Dataset size: Train(no of examples), Dev(no of examples), Test(no of examples) [Optional for dataset papers/resources]; Abstract/short description ...
