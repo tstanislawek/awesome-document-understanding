@@ -369,8 +369,8 @@ Red: text block, Blue: figure.
 [Back to top](#table-of-contents)
 
 **Domain**
-1. https://github.com/zacharywhitley/awesome-ocr ![](https://img.shields.io/github.com/zacharywhitley/awesome-ocr.svg?style=social)
-1. https://github.com/kba/awesome-ocr ![](https://img.shields.io/github.com/kba/awesome-ocr.svg?style=social)
+1. https://github.com/zacharywhitley/awesome-ocr ![](https://img.shields.io/github/stars/zacharywhitley/awesome-ocr.svg?style=social)
+1. https://github.com/kba/awesome-ocr ![](https://img.shields.io/github/stars/kba/awesome-ocr.svg?style=social)
 1. https://github.com/bikash/DocumentUnderstanding
 1. https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics 
 1. https://github.com/icoxfog417/awesome-financial-nlp 
