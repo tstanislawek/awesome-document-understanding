@@ -30,15 +30,15 @@ A curated list of resources for Document Understanding (DU) topic related to Int
     1. [Resources](#resources)
         1. [Datasets for Pre-training Language Models](#datasets-for-pre-training-language-models)
         1. [PDF processing tools](#pdf-processing-tools)
-    1. [Conferences / workshops / journals](#conferences-workshops-journals) 
+    1. [Conferences / workshops](#conferences-workshops) 
     1. [Blogs](#blogs)
-    1. [Inspirations](#inspirations) 
     1. [Solutions](#solutions)
 1. [Examples](#examples)
     1. [Visually Rich Documents (VRDs)](#visually-rich-documents) 
     1. [Key Information Extraction (KIE)](#key-information-extraction)
     1. [Document Layout Analysis (DLA)](#document-layout-analysis) 
     1. [Document Question Answering (DQA)](#document-question-answering)
+1. [Inspirations](#inspirations)
 
 
 # Introduction 
@@ -133,31 +133,34 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 1. [pawls](https://github.com/allenai/pawls) - PDF Annotations with Labels and Structure is software that makes it easy to collect a series of annotations associated with a PDF document
 1. [pdfplumber](https://github.com/jsvine/pdfplumber) - Plumb a PDF for detailed information about each text character, rectangle, and line. Plus: Table extraction and visual debugging
-1. [Pdfminer.six](https://github.com/pdfminer/pdfminer.six) - Pdfminer.six is a community maintained fork of the original PDFMiner. It is a tool for extracting information from PDF documents. It focuses on getting and analyzing text data. 
-1. [Layout Parser](https://github.com/Layout-Parser/layout-parser) - Layout Parser is a deep learning based tool for document image layout analysis tasks.
+1. [Pdfminer.six](https://github.com/pdfminer/pdfminer.six) - Pdfminer.six is a community maintained fork of the original PDFMiner. It is a tool for extracting information from PDF documents. It focuses on getting and analyzing text data 
+1. [Layout Parser](https://github.com/Layout-Parser/layout-parser) - Layout Parser is a deep learning based tool for document image layout analysis tasks
 1. [Born digital pdf scanner](https://github.com/applicaai/digital-born-pdf-scanner) - checking if pdf is born-digital
 1. [Tabulo](https://github.com/interviewBubble/Tabulo) - Table extraction from images
-1. [OCRmyPDF](https://github.com/jbarlow83/OCRmyPDF) - OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched or copy-pasted.
-1. [PDFBox](https://github.com/apache/pdfbox) - The Apache PDFBox library is an open source Java tool for working with PDF documents. This project allows creation of new PDF documents, manipulation of existing documents and the ability to extract content from documents. 
-1. [PdfPig](https://github.com/UglyToad/PdfPig) - This project allows users to read and extract text and other content from PDF files. In addition the library can be used to create simple PDF documents containing text and geometrical shapes. This project aims to port PDFBox to C#.
+1. [OCRmyPDF](https://github.com/jbarlow83/OCRmyPDF) - OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched or copy-pasted
+1. [PDFBox](https://github.com/apache/pdfbox) - The Apache PDFBox library is an open source Java tool for working with PDF documents. This project allows creation of new PDF documents, manipulation of existing documents and the ability to extract content from documents
+1. [PdfPig](https://github.com/UglyToad/PdfPig) - This project allows users to read and extract text and other content from PDF files. In addition the library can be used to create simple PDF documents containing text and geometrical shapes. This project aims to port PDFBox to C#
 1. [parsing-prickly-pdfs](https://porter.io/github.com/jsfenfen/parsing-prickly-pdfs) - Resources and worksheet for the NICAR 2016 workshop of the same name
 1. https://github.com/ckorzen/pdf-text-extraction-benchmark - PDF tools benchmark
 1. https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7991564 - PDF tools validation
 
 
-## Conferences, workshops, journals
+## Conferences, workshops
 
 [Back to top](#table-of-contents)
 
 #### General/ Business / Finance
 
-1. **[16th International Conference on Document Analysis and Recognition ICDAR 2021](https://icdar2021.org/)**
+1. **International Conference on Document Analysis and Recognition (ICDAR)** [[2021](https://icdar2021.org/), [2019](http://icdar2019.org/), [2017](http://u-pat.org/ICDAR2017/index.php)]
+1. Workshop on Document Intelligence (DI) [[2021](https://document-intelligence.github.io/DI-2021/), [2019](https://sites.google.com/view/di2019)]
+1. Financial Narrative Processing Workshop (FNP) [[2021](http://wp.lancs.ac.uk/cfie/fnp2021/), [2020](http://wp.lancs.ac.uk/cfie/fincausal2020/), [2019](https://www.aclweb.org/anthology/volumes/W19-64/) ]   
+1. Workshop on Economics and Natural Language Processing (ECONLP) [[2021](https://julielab.de/econlp/2021/), [2019](https://sites.google.com/view/econlp-2019), [2018](https://www.aclweb.org/anthology/W18-31.pdf) ]   
+1. INTERNATIONAL WORKSHOP ON DOCUMENT ANALYSIS SYSTEMS (DAS) [[2020](https://www.vlrlab.net/das2020/), [2018](https://das2018.cvl.tuwien.ac.at/en/), [2016](https://www.primaresearch.org/das2016/)]
+1. [ACM International Conference on AI in Finance (ICAIF)](https://ai-finance.org/)   
 1. [The AAAI-21 Workshop on Knowledge Discovery from Unstructured Data in Financial Services](https://aaai-kdf.github.io/kdf2021/)
-1. [14TH IAPR INTERNATIONAL WORKSHOP ON DOCUMENT ANALYSIS SYSTEMS (DAS 2020)](https://www.vlrlab.net/das2020/)
 1. [CVPR 2020 Workshop on Text and Documents in the Deep Learning Era](https://cvpr2020text.wordpress.com/accepted-papers/)
-1. [2nd Workshop on Economics and Natural Language Processing (ECONLP 2019)](https://sites.google.com/view/econlp-2019)
-1. [Workshop on Document Intelligence (DI 2019) at NeurIPS 2019](https://sites.google.com/view/di2019)
-1. [Proceedings of the Second Financial Narrative Processing Workshop (FNP 2019)](https://www.aclweb.org/anthology/volumes/W19-64/)
+1. [KDD Workshop on Machine Learning in Finance (KDD MLF 2020)](https://sites.google.com/view/kdd-mlf-2020)
+1. [FinIR 2020: The First Workshop on Information Retrieval in Finance](https://finir2020.github.io/)   
 1. [2nd KDD Workshop on Anomaly Detection in Finance (KDD 2019)](https://sites.google.com/view/kdd-adf-2019)
 1. [Document Understanding Conference (DUC 2007)](https://duc.nist.gov/pubs.html)
 
@@ -165,9 +168,7 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 1. [The AAAI-21 Workshop on Scientific Document Understanding (SDU 2021)](https://sites.google.com/view/sdu-aaai21/home)
 1. [First Workshop on Scholarly Document Processing (SDProc 2020)](https://ornlcda.github.io/SDProc/)
-1. [Fourth International Workshop on SCIentific DOCument Analysis (SCIDOCA2020)](http://research.nii.ac.jp/SCIDOCA2020/)
-1. [Second International Workshop on SCIentific DOCument Analysis (SCIDOCA2017)](https://aclweb.org/portal/content/second-international-workshop-scientific-document-analysis)
-
+1. International Workshop on SCIentific DOCument Analysis (SCIDOCA) [[2020](http://research.nii.ac.jp/SCIDOCA2020/), [2018](http://www.jaist.ac.jp/event/SCIDOCA/2018/), [2017]((https://aclweb.org/portal/content/second-international-workshop-scientific-document-analysis)) ]
 
 ## Blogs
 
@@ -185,34 +186,6 @@ Documents are a core part of many businesses in many fields such as law, finance
 1. [How Can I Automate Data Extraction from Complex Documents?](https://www.infrrd.ai/blog/how-can-i-automate-data-extraction-from-complex-documents), 2020
 1. [LegalTech: Information Extraction in legal documents](https://naturaltech.medium.com/legaltech-information-extraction-in-legal-documents-e1843a60bc8d), 2020
 1. [How to extract the structure of invoice data using tensorflow API faster crnn object detection](https://vigneshgig.medium.com/how-to-extract-the-structure-of-invoice-data-using-tensorflow-api-faster-crnn-object-detection-8aa15c12bb46), 2019
-
-## Inspirations
-
-[Back to top](#table-of-contents)
-
-**Domain**
-1. https://github.com/zacharywhitley/awesome-ocr 
-1. https://github.com/kba/awesome-ocr
-1. https://github.com/bikash/DocumentUnderstanding/ 
-1. https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics 
-1. https://github.com/icoxfog417/awesome-financial-nlp 
-1. https://github.com/harpribot/awesome-information-retrieval 
-1. https://github.com/roomylee/awesome-relation-extraction 
-1. https://github.com/caufieldjh/awesome-bioie 
-1. https://github.com/BobLd/DocumentLayoutAnalysis
-
-**General AI/DL/ML** 
-1. https://github.com/awesomedata/awesome-public-datasets 
-1. https://github.com/keon/awesome-nlp 
-1. https://github.com/eugeneyan/applied-ml 
-1. https://github.com/thunlp/PLMpapers
-1. https://github.com/jbhuang0604/awesome-computer-vision#awesome-lists  
-1. http://datasets.visionbib.com/index.html
-
-**More awesome**
-1. https://github.com/sindresorhus/awesome 
-1. https://github.com/vinta/awesome-python 
-
 
 ## Solutions
 
@@ -390,3 +363,34 @@ Red: text block, Blue: figure.
   </a>
 </p>
 <br/><br/>
+
+# Inspirations
+
+[Back to top](#table-of-contents)
+
+**Domain**
+1. https://github.com/zacharywhitley/awesome-ocr 
+1. https://github.com/kba/awesome-ocr
+1. https://github.com/bikash/DocumentUnderstanding
+1. https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics 
+1. https://github.com/icoxfog417/awesome-financial-nlp 
+1. https://github.com/harpribot/awesome-information-retrieval 
+1. https://github.com/roomylee/awesome-relation-extraction 
+1. https://github.com/caufieldjh/awesome-bioie 
+1. https://github.com/BobLd/DocumentLayoutAnalysis
+
+**General AI/DL/ML** 
+1. https://github.com/EthicalML/awesome-production-machine-learning
+1. https://github.com/eugeneyan/applied-ml 
+1. https://github.com/awesomedata/awesome-public-datasets 
+1. https://github.com/keon/awesome-nlp 
+1. https://github.com/thunlp/PLMpapers
+1. https://github.com/jbhuang0604/awesome-computer-vision#awesome-lists  
+1. http://datasets.visionbib.com/index.html
+1. https://github.com/papers-we-love/papers-we-love 
+1. https://github.com/BAILOOL/DoYouEvenLearn
+1. https://github.com/hibayesian/awesome-automl-papers
+
+**More awesome**
+1. https://github.com/sindresorhus/awesome 
+1. https://github.com/vinta/awesome-python 

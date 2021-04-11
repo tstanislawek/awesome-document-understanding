@@ -10,6 +10,12 @@
 
 #### 2021
 
+* [Data Augmentations for Document Images](http://ceur-ws.org/Vol-2831/paper20.pdf) 
+  <details>
+  <summary> Yunsung Lee, Teakgyu Hong, Seungryong Kim <em>SDU</em> 2021 </summary>
+    Data augmentation has the potential to significantly improve the generalization capability of deep neural networks. Especially in image recognition, recent augmentation techniques such as Mixup, CutOut, CutMix, and RandAugment have shown great performance improvement. These augmentation techniques have also shown effectiveness in semi-supervised learning or self-supervised learning. Despite of these effects and usefulness, these techniques cannot be applied directly to document image analysis, which require text semantic fea-ture preservation. To tackle this problem, we propose novel augmentation methods, DocCutout and DocCutMix, that are more suitable for document images, by applying the transform to each  word  unit  and  thus  preserving  text  semantic feature  during  augmentation.  We  conduct  intensive  experiments to find the most effective data augmentation techniques among various approaches for document object detection and show our proposed augmentation methods outperform state-of-the-arts with +1.77 AP in PubMed dataset.
+  </details>
+
 * [Variational Transformer Networks for Layout Generation](https://arxiv.org/pdf/2104.02416.pdf) 
   <details>
   <summary> Diego Martin Arroyo, Janis Postels, Federico Tombari <em>CVPR</em> 2021 </summary>
