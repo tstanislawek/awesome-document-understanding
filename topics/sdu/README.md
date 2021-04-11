@@ -8,7 +8,7 @@
 
 #### 2021
 
-* [On Generating Extended Summaries of Long Documents](https://arxiv.org/abs/2012.14136v1), \[[code](https://github.com/Georgetown-IR-Lab/ExtendedSumm/)\] 
+* [On Generating Extended Summaries of Long Documents](https://arxiv.org/abs/2012.14136v1), \[[code](https://github.com/Georgetown-IR-Lab/ExtendedSumm) ![](https://img.shields.io/github/stars/Georgetown-IR-Lab/ExtendedSumm.svg?style=social)\] 
   <details>
   <summary> Sajad Sotudeh, Arman Cohan, Nazli Goharian <em>SDU</em> 2021 </summary>
     Prior work in document summarization has mainly focused on generating short summaries of a document. While this type of summary helps get a high-level view of a given document, it is desirable in some cases to know more detailed information about its salient points that can't fit in a short summary. This is typically the case for longer documents such as a research paper, legal document, or a book. In this paper, we present a new method for generating extended summaries of long papers. Our method exploits hierarchical structure of the documents and incorporates it into an extractive summarization model through a multi-task learning approach. We then present our results on three long summarization datasets, arXiv-Long, PubMed-Long, and Longsumm. Our method outperforms or matches the performance of strong baselines. Furthermore, we perform a comprehensive analysis over the generated results, shedding insights on future research for long-form summary generation task. Our analysis shows that our multi-tasking approach can adjust extraction probability distribution to the favor of summary-worthy sentences across diverse sections.
@@ -16,13 +16,13 @@
 
 #### 2020
 
-* [Acronym Identification and Disambiguation Shared Tasksfor Scientific Document Understanding](https://arxiv.org/pdf/2012.11760.pdf), \[[code/data](https://github.com/amirveyseh/AAAI-21-SDU-shared-task-2-AD)\]
+* [Acronym Identification and Disambiguation Shared Tasksfor Scientific Document Understanding](https://arxiv.org/pdf/2012.11760.pdf), \[[code/data](https://github.com/amirveyseh/AAAI-21-SDU-shared-task-2-AD) ![](https://img.shields.io/github/stars/amirveyseh/AAAI-21-SDU-shared-task-2-AD.svg?style=social)\]
   <details>
   <summary> Amir Pouran Ben Veyseh, Franck Dernoncourt, Quan Hung Tran, Thien Huu Nguyen <em>COLING</em> 2020 </summary>
     Acronyms are the short forms of longer phrases and they are frequently used in writing, especially scholarly writing, to save space and facilitate the communication of information. As such, every text understanding tool should be capable of recognizing acronyms in text (i.e., acronym identification) and also finding their correct meaning (i.e., acronym disambiguation). As most of the prior works on these tasks are restricted to the biomedical domain and use unsupervised methods or models trained on limited datasets, they fail to perform well for scientific document understanding. To push forward research in this direction, we have organized two shared task for acronym identification and acronym disambiguation in scientific documents, named AI@SDU and AD@SDU, respectively. The two shared tasks have attracted 52 and 43 participants, respectively. While the submitted systems make substantial improvements compared to the existing baselines, there are still far from the human-level performance. This paper reviews the two shared tasks and the prominent participating systems for each of them.
   </details>
 
-* [AxCell: Automatic Extraction of Resultsfrom Machine Learning Papers](https://arxiv.org/abs/2004.14356), \[[code](https://github.com/paperswithcode/axcell)\]
+* [AxCell: Automatic Extraction of Resultsfrom Machine Learning Papers](https://arxiv.org/abs/2004.14356), \[[code](https://github.com/paperswithcode/axcell) ![](https://img.shields.io/github/stars/paperswithcode/axcell.svg?style=social)\]
   <details>
   <summary> Marcin Kardas, Piotr Czapla, Pontus Stenetorp, Sebastian Ruder, Sebastian Riedel, Ross Taylor, Robert Stojnic <em>EMNLP</em> 2020 </summary>
     Tracking progress in machine learning has become increasingly difficult with the recent explosion in the number of papers. In this paper, we present AxCell, an automatic machine learning pipeline for extracting results from papers. AxCell uses several novel components, including a table segmentation subtask, to learn relevant structural knowledge that aids extraction. When compared with existing methods, our approach significantly improves the state of the art for results extraction. We also release a structured, annotated dataset for training models for results extraction, and a dataset for evaluating the performance of models on this task. Lastly, we show the viability of our approach enables it to be used for semi-automated results extraction in production, suggesting our improvements make this task practically viable for the first time. Code is available on GitHub. 
@@ -37,7 +37,7 @@
 
 ### Datasets
 
-* [SciREX: A Challenge Dataset for Document-Level Information Extraction](https://www.aclweb.org/anthology/2020.acl-main.670.pdf) \[[code/data](https://github.com/allenai/SciREX)\]
+* [SciREX: A Challenge Dataset for Document-Level Information Extraction](https://www.aclweb.org/anthology/2020.acl-main.670.pdf) \[[code/data](https://github.com/allenai/SciREX) ![](https://img.shields.io/github/stars/allenai/SciREX.svg?style=social)\]
   <details>
   <summary> Sarthak Jain, Madeleine van Zuylen, Hannaneh Hajishirzi, Iz Beltagy <em>ACL</em> 2020  </summary>
     Extracting information from full documents is an important problem in many domains, but most previous work focus on identifying relationships within a sentence or a paragraph. It is challenging to create a large-scale information extraction (IE) dataset at the document level since it requires an understanding of the whole document to annotate entities and their document-level relationships that usually span beyond sentences or even sections. In this paper, we introduce SciREX, a document level IE dataset that encompasses multiple IE tasks, including salient entity identification and document level N-ary relation identification from scientific articles. We annotate our dataset by integrating automatic and human annotations, leveraging existing scientific knowledge resources. We develop a neural model as a strong baseline that extends previous state-of-the-art IE models to document-level IE. Analyzing the model performance shows a significant gap between human performance and current baselines, inviting the community to use our dataset as a challenge to develop document-level IE models.  
