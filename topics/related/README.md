@@ -10,6 +10,12 @@
 
 #### 2021
 
+* [NT5?! Training T5 to Perform Numerical Reasoning](https://arxiv.org/pdf/2104.07307.pdf), \[[code](https://github.com/lesterpjy/numeric-t5) ![](https://img.shields.io/github/stars/lesterpjy/numeric-t5.svg?style=social)\] 
+  <details>
+  <summary> Peng-Jian Yang, Ying Ting Chen, Yuechan Chen, Daniel Cer <em>arxiv</em> 2021 </summary>
+    Numerical reasoning over text (NRoT) presents unique challenges that are not well addressed by existing pre-training objectives. We explore five sequential training schedules that adapt a pre-trained T5 model for NRoT. Our final model is adapted from T5, but further pre-trained on three datasets designed to strengthen skills necessary for NRoT and general reading comprehension before being fine-tuned on the Discrete Reasoning over Text (DROP) dataset. The training improves DROP's adjusted F1 performance (a numeracy-focused score) from 45.90 to 70.83. Our model closes in on GenBERT (72.4), a custom BERT-Base model using the same datasets with significantly more parameters. We show that training the T5 multitasking framework with multiple numerical reasoning datasets of increasing difficulty, good performance on DROP can be achieved without manually engineering partitioned functionality between distributed and symbol modules. 
+  </details>
+
 * [Data Augmentations for Document Images](http://ceur-ws.org/Vol-2831/paper20.pdf) 
   <details>
   <summary> Yunsung Lee, Teakgyu Hong, Seungryong Kim <em>SDU</em> 2021 </summary>
