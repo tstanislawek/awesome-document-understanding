@@ -11,6 +11,12 @@
 
 #### 2021
 
+* [LayoutXLM: Multimodal Pre-training for Multilingual Visually-rich Document Understanding](https://arxiv.org/pdf/2104.08836.pdf), \[[code/data](https://github.com/microsoft/unilm/tree/master/layoutxlm) \] 
+  <details>
+  <summary> Yiheng Xu, Tengchao Lv, Lei Cui, Guoxin Wang, Yijuan Lu, Dinei Florencio, Cha Zhang, Furu Wei <em>arxiv</em> 2021 </summary>
+    Multimodal pre-training with text, layout, and image has achieved SOTA performance for visually-rich document understanding tasks recently, which demonstrates the great potential for joint learning across different modalities. In this paper, we present LayoutXLM, a multimodal pre-trained model for multilingual document understanding, which aims to bridge the language barriers for visually-rich document understanding. To accurately evaluate LayoutXLM, we also introduce a multilingual form understanding benchmark dataset named XFUN, which includes form understanding samples in 7 languages (Chinese, Japanese, Spanish, French, Italian, German, Portuguese), and key-value pairs are manually labeled for each language. Experiment results show that the LayoutXLM model has significantly outperformed the existing SOTA cross-lingual pre-trained models on the XFUN dataset. 
+  </details>
+
 * **[Going Full-TILT Boogie on Document Understanding with Text-Image-Layout Transformer](https://arxiv.org/abs/2102.09550)**, 
   <details>
   <summary> Rafał Powalski, Łukasz Borchmann, Dawid Jurkiewicz, Tomasz Dwojak, Michał Pietruszka, Gabriela Pałka <em>arxiv</em> 2021 </summary>
@@ -290,6 +296,13 @@
 
 
 #### Multilanguage 
+
+* [XFUN benchmark](https://arxiv.org/pdf/2104.08836.pdf), \[[code/data](https://github.com/microsoft/unilm/tree/master/layoutxlm) \] 
+  <details>
+  <summary> Yiheng Xu, Tengchao Lv, Lei Cui, Guoxin Wang, Yijuan Lu, Dinei Florencio, Cha Zhang, Furu Wei <em>arxiv</em> 2021 </summary>
+    Multimodal pre-training with text, layout, and image has achieved SOTA performance for visually-rich document understanding tasks recently, which demonstrates the great potential for joint learning across different modalities. In this paper, we present LayoutXLM, a multimodal pre-trained model for multilingual document understanding, which aims to bridge the language barriers for visually-rich document understanding. To accurately evaluate LayoutXLM, we also introduce a multilingual form understanding benchmark dataset named XFUN, which includes form understanding samples in 7 languages (Chinese, Japanese, Spanish, French, Italian, German, Portuguese), and key-value pairs are manually labeled for each language. Experiment results show that the LayoutXLM model has significantly outperformed the existing SOTA cross-lingual pre-trained models on the XFUN dataset. 
+  </details>
+
 
 * [Ghega dataset](https://arxiv.org/abs/1906.02427), \[[Website](https://machinelearning.inginf.units.it/data-and-tools/ghega-dataset)\] 
   <details>

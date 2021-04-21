@@ -1,6 +1,6 @@
 # Awesome Document Understanding 
 
-A curated list of resources for Document Understanding (DU) topic related to Intelligent Document Processing (IDP), which is relative to Robotic Process Automation (RPA) from unstructured data: texts or Visually Rich Documents (VRDs). 
+A curated list of resources for Document Understanding (DU) topic related to Intelligent Document Processing (IDP), which is relative to Robotic Process Automation (RPA) from unstructured data, especially form Visually Rich Documents (VRDs). 
 
 **Note 1: bolded positions are more important then others.**
 
