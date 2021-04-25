@@ -167,7 +167,7 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 1. [The AAAI-21 Workshop on Scientific Document Understanding (SDU 2021)](https://sites.google.com/view/sdu-aaai21/home)
 1. [First Workshop on Scholarly Document Processing (SDProc 2020)](https://ornlcda.github.io/SDProc/)
-1. International Workshop on SCIentific DOCument Analysis (SCIDOCA) [[2020](http://research.nii.ac.jp/SCIDOCA2020/), [2018](http://www.jaist.ac.jp/event/SCIDOCA/2018/), [2017]((https://aclweb.org/portal/content/second-international-workshop-scientific-document-analysis)) ]
+1. International Workshop on SCIentific DOCument Analysis (SCIDOCA) [[2020](http://research.nii.ac.jp/SCIDOCA2020/), [2018](http://www.jaist.ac.jp/event/SCIDOCA/2018/), [2017](https://aclweb.org/portal/content/second-international-workshop-scientific-document-analysis) ]
 
 ## Blogs
 
