@@ -380,6 +380,7 @@ Red: text block, Blue: figure.
 1. https://github.com/HelloRusk/entity-related-papers ![](https://img.shields.io/github/stars/HelloRusk/entity-related-papers.svg?style=social)
 
 **General AI/DL/ML** 
+1. https://github.com/jsbroks/awesome-dataset-tools ![](https://img.shields.io/github/stars/jsbroks/awesome-dataset-tools.svg?style=social)
 1. https://github.com/EthicalML/awesome-production-machine-learning ![](https://img.shields.io/github/stars/EthicalML/awesome-production-machine-learning.svg?style=social)
 1. https://github.com/eugeneyan/applied-ml ![](https://img.shields.io/github/stars/eugeneyan/applied-ml.svg?style=social)
 1. https://github.com/awesomedata/awesome-public-datasets ![](https://img.shields.io/github/stars/awesomedata/awesome-public-datasets.svg?style=social)
