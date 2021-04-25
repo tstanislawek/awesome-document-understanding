@@ -17,11 +17,11 @@ A curated list of resources for Document Understanding (DU) topic related to Int
 
 1. [Introduction](#introduction) 
 1. [Research topics](#research-topics)
-    1. [Optical Character Recognition (OCR)](topics/ocr/README.md)
     1. [Key Information Extraction (KIE)](topics/kie/README.md)
     1. [Document Layout Analysis (DLA)](topics/dla/README.md)
     1. [Document Question Answering (DQA)](topics/dqa/README.md)  
-    1. [Scientific Document Understanding (SDU)](topics/sdu/README.md)       
+    1. [Scientific Document Understanding (SDU)](topics/sdu/README.md)
+    1. [Optical Character Recognition (OCR)](topics/ocr/README.md)       
     1. [Related](topics/related/README.md)  
         1. [General](topics/related/README.md#general) 
         1. [Tabular Data Comprehension (TDC)](topics/related/README.md#tabular-data-comprehension)
@@ -105,11 +105,11 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 # Research topics
 
-* [Optical Character Recogtion (OCR)](topics/ocr/README.md)
 * [Key Information Extraction (KIE)](topics/kie/README.md)
 * [Document Layout Analysis (DLA)](topics/dla/README.md)
 * [Document Question Answering (DQA)](topics/dqa/README.md)
 * [Scientific Document Understanding (SDU)](topics/sdu/README.md)  
+* [Optical Character Recogtion (OCR)](topics/ocr/README.md)
 * [Related](topics/related/README.md)
   * [General](topics/related/README.md#general) 
   * [Tabular Data Comprehension (TDC)](topics/related/README.md#tabular-data-comprehension)
