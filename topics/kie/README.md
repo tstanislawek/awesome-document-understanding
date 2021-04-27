@@ -11,6 +11,12 @@
 
 #### 2021
 
+* **[LAMBERT: Layout-Aware (Language) Modeling using BERT for information extraction](https://arxiv.org/abs/2002.08087)**
+  <details>
+  <summary> Łukasz Garncarek, Rafał Powalski, Tomasz Stanisławek, Bartosz Topolski, Piotr Halama, Michał Turski, Filip Graliński <em>ICDAR</em> 2021 </summary>
+    In this paper we introduce a novel approach to the problem of understanding documents where the local semantics is influenced by non-trivial layout. Namely, we modify the Transformer architecture in a way that allows it to use the graphical features defined by the layout, without the need to re-learn the language semantics from scratch, thanks to starting the training process from a model pretrained on classical language modeling tasks. SOTA on [SROIE leaderboard](https://rrc.cvc.uab.es/?ch=13&com=evaluation&task=3) 
+  </details>
+
 * [LAMPRET: Layout-Aware Multimodal PreTraining for Document Understanding](https://arxiv.org/abs/2104.08405) 
   <details>
   <summary> Te-Lin Wu, Cheng Li, Mingyang Zhang, Tao Chen, Spurthi Amba Hombaiah, Michael Bendersky <em>arxiv</em> 2021 </summary>
@@ -25,7 +31,7 @@
 
 * **[Going Full-TILT Boogie on Document Understanding with Text-Image-Layout Transformer](https://arxiv.org/abs/2102.09550)**, 
   <details>
-  <summary> Rafał Powalski, Łukasz Borchmann, Dawid Jurkiewicz, Tomasz Dwojak, Michał Pietruszka, Gabriela Pałka <em>arxiv</em> 2021 </summary>
+  <summary> Rafał Powalski, Łukasz Borchmann, Dawid Jurkiewicz, Tomasz Dwojak, Michał Pietruszka, Gabriela Pałka <em>ICDAR</em> 2021 </summary>
     We address the challenging problem of Natural Language Comprehension beyond plain-text documents by introducing the TILT neural network architecture which simultaneously learns layout information, visual features, and textual semantics. Contrary to previous approaches, we rely on a decoder capable of unifying a variety of problems involving natural language. The layout is represented as an attention bias and complemented with contextualized visual information, while the core of our model is a pretrained encoder-decoder Transformer. Our novel approach achieves state-of-the-art results in extracting information from documents and answering questions which demand layout understanding (DocVQA, CORD, WikiOps, SROIE). At the same time, we simplify the process by employing an end-to-end model.
   </details>
 
@@ -54,12 +60,6 @@
   <details>
   <summary> Teakgyu Hong, DongHyun Kim, Mingi Ji, Wonseok Hwang, Daehyun Nam, Sungrae Park <em>openreview.net</em> 2020 </summary>
     Understanding document from their visual snapshots is an emerging and challenging problem that requires both advanced computer vision and NLP methods. Although the recent advance in OCR enables the accurate extraction of text segments, it is still challenging to extract key information from documents due to the diversity of layouts. To compensate for the difficulties, this paper introduces a pre-trained language model, BERT Relying On Spatiality (BROS), that represents and understands the semantics of spatially distributed texts. Different from previous pre-training methods on 1D text, BROS is pre-trained on large-scale semi-structured documents with a novel area-masking strategy while efficiently including the spatial layout information of input documents. Also, to generate structured outputs in various document understanding tasks, BROS utilizes a powerful graph-based decoder that can capture the relation between text segments. BROS achieves state-of-the-art results on four benchmark tasks: FUNSD, SROIE*, CORD, and SciTSR. Our experimental settings and implementation codes will be publicly available.
-  </details>
-
-* **[LAMBERT: Layout-Aware (Language) Modeling using BERT for information extraction](https://arxiv.org/abs/2002.08087)**
-  <details>
-  <summary> Łukasz Garncarek, Rafał Powalski, Tomasz Stanisławek, Bartosz Topolski, Piotr Halama, Michał Turski, Filip Graliński <em>arxiv</em> 2020 </summary>
-    In this paper we introduce a novel approach to the problem of understanding documents where the local semantics is influenced by non-trivial layout. Namely, we modify the Transformer architecture in a way that allows it to use the graphical features defined by the layout, without the need to re-learn the language semantics from scratch, thanks to starting the training process from a model pretrained on classical language modeling tasks. SOTA on [SROIE leaderboard](https://rrc.cvc.uab.es/?ch=13&com=evaluation&task=3) 
   </details>
 
 * **[LayoutLM: Pre-training of Text and Layout for Document Image Understanding](https://www.microsoft.com/en-us/research/publication/layoutlm-pre-training-of-text-and-layout-for-document-image-understanding/)**, \[[code](https://github.com/microsoft/unilm) ![](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social)\]  
@@ -238,7 +238,7 @@
 
 * **[Kleister: Key Information Extraction Datasets Involving Long Documents with Complex Layouts](https://arxiv.org/abs/2003.02356)**, \[[data nda](https://github.com/applicaai/kleister-nda) ![](https://img.shields.io/github/stars/applicaai/kleister-nda.svg?style=social) \], \[[data charity](https://github.com/applicaai/kleister-charity) ![](https://img.shields.io/github/stars/applicaai/kleister-charity.svg?style=social) \]
   <details>
-  <summary> Tomasz Stanisławek, Filip Graliński, Anna Wróblewska, Dawid Lipiński, Agnieszka Kaliska, Paulina Rosalska, Bartosz Topolski, Przemysław Biecek <em>arxiv</em> 2020 </summary>
+  <summary> Tomasz Stanisławek, Filip Graliński, Anna Wróblewska, Dawid Lipiński, Agnieszka Kaliska, Paulina Rosalska, Bartosz Topolski, Przemysław Biecek <em>ICDAR</em> 2021 </summary>
     Charity dataset size: Train(1 729), Dev(440), Test(609). NDA dataset size: Train(254), Dev(83), Test(203). Description: The relevance of Key Information Extraction (KIE) task is increasing in the natural language processing problems. But there are still only a few well-defined problems that serve as benchmarks for solutions in this area. To bridge this gap, we introduce two new datasets (Kleister NDA and Kleister Charity). They involve a mix of born-digital and scanned long formal documents in English.  In these datasets, an NLP system is expected to find or infer various types of entities by utilizing both textual and structural layout features. The Kleister Charity dataset consists of 2,788 annual financial reports of charity organizations, i.e. 61,643 unique pages with 21,612 entities to extract. The Kleister NDA dataset contains 540 Non-disclosure Agreements, i.e. 3,229 unique pages with 2,160 entities to extract. We provide several state-of-the-art baseline systems from the KIE domain (Flair, BERT, RoBERTa, LayoutLM, LAMBERT), which show that our datasets pose a strong challenge to existing models. The best model achieved 81.77 % and 83.57 % F1-score on Kleister NDA and Kleister Charity datasets respectively. With this paper, we release our datasets to encourage progress on more in-depth and complex information extraction tasks.
   </details>
 
