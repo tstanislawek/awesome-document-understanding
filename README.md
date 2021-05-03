@@ -1,4 +1,4 @@
-# Awesome Document Understanding 
+# Awesome Document Understanding [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 A curated list of resources for Document Understanding (DU) topic related to Intelligent Document Processing (IDP), which is relative to Robotic Process Automation (RPA) from unstructured data, especially form Visually Rich Documents (VRDs). 
 
@@ -74,14 +74,6 @@ Documents are a core part of many businesses in many fields such as law, finance
   <details>
   <summary> Maartje ter Hoeve, Robert Sim, Elnaz Nouri, Adam Fourney, Maarten de Rijke, Ryen W. White <em>CHIIR</em> 2020 </summary>
     The role of conversational assistants has become more prevalent in helping people increase their productivity. Document-centered assistance, for example to help an individual quickly review a document, has seen less significant progress, even though it has the potential to tremendously increase a user's productivity. This type of document-centered assistance is the focus of this paper. Our contributions are three-fold: (1) We first present a survey to understand the space of document-centered assistance and the capabilities people expect in this scenario. (2) We investigate the types of queries that users will pose while seeking assistance with documents, and show that document-centered questions form the majority of these queries. (3) We present a set of initial machine learned models that show that (a) we can accurately detect document-centered questions, and (b) we can build reasonably accurate models for answering such questions. These positive results are encouraging, and suggest that even greater results may be attained with continued study of this interesting and novel problem space. Our findings have implications for the design of intelligent systems to support task completion via natural interactions with documents. 
-  </details>
-
-#### 2019
-
-* [Machine learning in UK financial services](https://www.bankofengland.co.uk/-/media/boe/files/report/2019/machine-learning-in-uk-financial-services.pdf)
-  <details>
-  <summary> Carsten Jung, Henrike Muelle, Simone Pedemonte, Simone Plances, Oliver Thew <em>-</em> 2019 </summary>
-    Machine learning (ML) is the development of models for prediction and pattern recognition from data, with limited human intervention. In the financial services industry, the application of ML methods has the potential to improve outcomes for both businesses and consumers.(1) In recent years, improved software and hardware as well as increasing volumes of data have accelerated the pace of ML development. The UK financial sector is beginning to take advantage of this. The promise of ML is to make financial services and markets more efficient, accessible and tailored to consumer needs.(2) At the same time, existing risks may be amplified if governance and controls do not keep pace with technological developments. But the risks presented by ML may be different in each of the contexts it is deployed in.(3) More broadly, ML also raises profound questions around the use of data, complexity of techniques and the automation of processes, systems and decision-making.
   </details>
 
 #### 2018
@@ -374,15 +366,14 @@ Red: text block, Blue: figure.
 [Back to top](#table-of-contents)
 
 **Domain**
-1. https://github.com/zacharywhitley/awesome-ocr ![](https://img.shields.io/github/stars/zacharywhitley/awesome-ocr.svg?style=social)
 1. https://github.com/kba/awesome-ocr ![](https://img.shields.io/github/stars/kba/awesome-ocr.svg?style=social)
 1. https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics ![](https://img.shields.io/github/stars/Liquid-Legal-Institute/Legal-Text-Analytics.svg?style=social)
 1. https://github.com/icoxfog417/awesome-financial-nlp ![](https://img.shields.io/github/stars/icoxfog417/awesome-financial-nlp.svg?style=social)
+1. https://github.com/BobLd/DocumentLayoutAnalysis ![](https://img.shields.io/github/stars/BobLd/DocumentLayoutAnalysis.svg?style=social)
+1. https://github.com/bikash/DocumentUnderstanding ![](https://img.shields.io/github/stars/bikash/DocumentUnderstanding.svg?style=social)
 1. https://github.com/harpribot/awesome-information-retrieval ![](https://img.shields.io/github/stars/harpribot/awesome-information-retrieval.svg?style=social)
 1. https://github.com/roomylee/awesome-relation-extraction ![](https://img.shields.io/github/stars/roomylee/awesome-relation-extraction.svg?style=social)
 1. https://github.com/caufieldjh/awesome-bioie ![](https://img.shields.io/github/stars/caufieldjh/awesome-bioie.svg?style=social)
-1. https://github.com/BobLd/DocumentLayoutAnalysis ![](https://img.shields.io/github/stars/BobLd/DocumentLayoutAnalysis.svg?style=social)
-1. https://github.com/bikash/DocumentUnderstanding ![](https://img.shields.io/github/stars/bikash/DocumentUnderstanding.svg?style=social)
 1. https://github.com/HelloRusk/entity-related-papers ![](https://img.shields.io/github/stars/HelloRusk/entity-related-papers.svg?style=social)
 
 **General AI/DL/ML** 
@@ -396,8 +387,3 @@ Red: text block, Blue: figure.
 1. https://github.com/papers-we-love/papers-we-love ![](https://img.shields.io/github/stars/papers-we-love/papers-we-love.svg?style=social)
 1. https://github.com/BAILOOL/DoYouEvenLearn ![](https://img.shields.io/github/stars/BAILOOL/DoYouEvenLearn.svg?style=social)
 1. https://github.com/hibayesian/awesome-automl-papers ![](https://img.shields.io/github/stars/hibayesian/awesome-automl-papers.svg?style=social)
-1. http://datasets.visionbib.com/index.html ![](https://img.shields.io/github/stars/kba/awesome-ocr.svg?style=social)
-
-**More awesome**
-1. https://github.com/sindresorhus/awesome ![](https://img.shields.io/github/stars/sindresorhus/awesome.svg?style=social)
-1. https://github.com/vinta/awesome-python ![](https://img.shields.io/github/stars/vinta/awesome-python.svg?style=social)
