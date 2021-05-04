@@ -211,7 +211,7 @@ Smaller:
 
 [Back to top](#table-of-contents)
 
-In VRDs the importance of the layout information is crutial to understand whole document correctly (this is the case it almost all business documents). For humans spatial information improves readability and speeds document understanding.
+In VRDs the importance of the layout information is crucial to understand the whole document correctly (this is the case with almost all business documents). For humans spatial information improves readability and speeds document understanding.
 
 #### Invoice / Resume / Job Ad 
 
@@ -236,7 +236,7 @@ In VRDs the importance of the layout information is crutial to understand whole 
 
 [Back to top](#table-of-contents)
 
-The aim of this task is to extract texts of a number of key fields from given collection of documentes containing similar key entites. 
+The aim of this task is to extract texts of a number of key fields from a given collection of documents containing similar key entities. 
 
 <br/>
 
