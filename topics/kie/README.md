@@ -11,7 +11,7 @@
 
 #### 2021
 
-* **[LAMBERT: Layout-Aware (Language) Modeling using BERT for information extraction](https://arxiv.org/abs/2002.08087)**
+* **[LAMBERT: Layout-Aware (Language) Modeling using BERT for information extraction](https://arxiv.org/abs/2002.08087)**, \[[code](https://github.com/applicaai/lambert) \]
   <details>
   <summary> Łukasz Garncarek, Rafał Powalski, Tomasz Stanisławek, Bartosz Topolski, Piotr Halama, Michał Turski, Filip Graliński <em>ICDAR</em> 2021 </summary>
     In this paper we introduce a novel approach to the problem of understanding documents where the local semantics is influenced by non-trivial layout. Namely, we modify the Transformer architecture in a way that allows it to use the graphical features defined by the layout, without the need to re-learn the language semantics from scratch, thanks to starting the training process from a model pretrained on classical language modeling tasks. SOTA on [SROIE leaderboard](https://rrc.cvc.uab.es/?ch=13&com=evaluation&task=3) 
