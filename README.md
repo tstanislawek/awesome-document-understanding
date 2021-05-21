@@ -375,6 +375,9 @@ Red: text block, Blue: figure.
 1. https://github.com/roomylee/awesome-relation-extraction ![](https://img.shields.io/github/stars/roomylee/awesome-relation-extraction.svg?style=social)
 1. https://github.com/caufieldjh/awesome-bioie ![](https://img.shields.io/github/stars/caufieldjh/awesome-bioie.svg?style=social)
 1. https://github.com/HelloRusk/entity-related-papers ![](https://img.shields.io/github/stars/HelloRusk/entity-related-papers.svg?style=social)
+1. https://github.com/pliang279/awesome-multimodal-ml ![](https://img.shields.io/github/stars/pliang279/awesome-multimodal-ml.svg?style=social)
+1. https://github.com/thunlp/LegalPapers ![](https://img.shields.io/github/stars/thunlp/LegalPapers.svg?style=social)
+1. https://github.com/heartexlabs/awesome-data-labeling ![](https://img.shields.io/github/stars/heartexlabs/awesome-data-labeling.svg?style=social)
 
 **General AI/DL/ML** 
 1. https://github.com/jsbroks/awesome-dataset-tools ![](https://img.shields.io/github/stars/jsbroks/awesome-dataset-tools.svg?style=social)
