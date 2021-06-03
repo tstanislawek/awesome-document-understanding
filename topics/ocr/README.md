@@ -34,6 +34,7 @@
 
 ## Useful links 
 
+1. https://github.com/open-mmlab/mmocr 
 1. https://github.com/Belval/TextRecognitionDataGenerator 
 1. http://tc11.cvc.uab.es/datasets/type/
 1. https://www.primaresearch.org/
