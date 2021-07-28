@@ -171,9 +171,9 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 [Back to top](#table-of-contents)
 
+1. [A Survey of Document Understanding Models](https://www.pragmatic.ml/a-survey-of-document-understanding-models/), 2021
 1. [Document Form Extraction](https://www.crosstab.io/product-comparisons/document-form-extraction), 2021
 1. [How to automate processes with unstructured data](https://levity.ai/blog/automate-processes-with-unstructured-data), 2021
-1. [Introducing TILT – Applica’s revolutionary new language model](https://applica.ai/2021/03/12/introducing-tilt-applicas-revolutionary-new-language-model/), 2021
 1. [A Comprehensive Guide to OCR with RPA and Document Understanding](https://nanonets.com/blog/ocr-with-rpa-and-document-understanding-uipath/), 2021
 1. [Information Extraction from Receipts with Graph Convolutional Networks](https://nanonets.com/blog/information-extraction-graph-convolutional-networks/), 2021
 1. [How to extract structured data from invoices](https://nanonets.com/blog/extract-structured-data-from-invoice/), 2021
@@ -182,7 +182,6 @@ Documents are a core part of many businesses in many fields such as law, finance
 1. [UiPath Document Understanding Solution Architecture and Approach](https://medium.com/@lahirufernando90/uipath-document-understanding-solution-architecture-and-approach-934a9a26630a), 2020
 1. [How Can I Automate Data Extraction from Complex Documents?](https://www.infrrd.ai/blog/how-can-i-automate-data-extraction-from-complex-documents), 2020
 1. [LegalTech: Information Extraction in legal documents](https://naturaltech.medium.com/legaltech-information-extraction-in-legal-documents-e1843a60bc8d), 2020
-1. [How to extract the structure of invoice data using tensorflow API faster crnn object detection](https://vigneshgig.medium.com/how-to-extract-the-structure-of-invoice-data-using-tensorflow-api-faster-crnn-object-detection-8aa15c12bb46), 2019
 
 ## Solutions
 

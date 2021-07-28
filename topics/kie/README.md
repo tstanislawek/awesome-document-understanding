@@ -11,6 +11,12 @@
 
 #### 2021
 
+* **[DocFormer: End-to-End Transformer for Document Understanding](https://arxiv.org/abs/2106.11539)**
+  <details>
+  <summary> Srikar Appalaraju, Bhavan Jasani, Bhargava Urala Kota, Yusheng Xie, R. Manmatha <em></em> 2021 </summary>
+    We present DocFormer -- a multi-modal transformer based architecture for the task of Visual Document Understanding (VDU). VDU is a challenging problem which aims to understand documents in their varied formats (forms, receipts etc.) and layouts. In addition, DocFormer is pre-trained in an unsupervised fashion using carefully designed tasks which encourage multi-modal interaction. DocFormer uses text, vision and spatial features and combines them using a novel multi-modal self-attention layer. DocFormer also shares learned spatial embeddings across modalities which makes it easy for the model to correlate text to visual tokens and vice versa. DocFormer is evaluated on 4 different datasets each with strong baselines. DocFormer achieves state-of-the-art results on all of them, sometimes beating models 4x its size (in no. of parameters).  
+  </details>
+
 * **[LAMBERT: Layout-Aware (Language) Modeling using BERT for information extraction](https://arxiv.org/abs/2002.08087)**, \[[code](https://github.com/applicaai/lambert) \]
   <details>
   <summary> Łukasz Garncarek, Rafał Powalski, Tomasz Stanisławek, Bartosz Topolski, Piotr Halama, Michał Turski, Filip Graliński <em>ICDAR</em> 2021 </summary>
@@ -229,6 +235,12 @@
 
 
 #### English 
+
+* **[Measuring the State of Document Understanding ](https://openreview.net/forum?id=tNMPcy9PovC)**, \[[Website](https://duebenchmark.com/leaderboard) \] 
+  <details>
+  <summary> Łukasz Borchmann, Michał Pietruszka, Tomasz Stanislawek, Dawid Jurkiewicz, Michał Turski, Karolina Szyndler, Filip Graliński <em></em> 2021 </summary>
+    Understanding documents with rich layouts plays a vital role in digitization and hyper-automation but remains a challenging topic in the NLP research community. Additionally, the lack of a commonly accepted benchmark made it difficult to quantify progress in the domain. To empower research in Document Understanding, we present a suite of tasks that fulfill the highest quality, difficulty, and licensing criteria. The benchmark includes Visual Question Answering, Key Information Extraction, and Machine Reading Comprehension tasks over various document domains, and layouts featuring tables, graphs, lists, and infographics. The current study reports systematic baselines making use of recent advances in layout-aware language modeling. To support adoption by other researchers, both the benchmarks and reference implementations will be shortly released. 
+  </details>
 
 * [Spatial Dual-Modality Graph Reasoning for Key Information Extraction](https://arxiv.org/pdf/2103.14470.pdf), \[[Website](https://mmocr.readthedocs.io/en/latest/datasets.html#key-information-extraction) \] 
   <details>
