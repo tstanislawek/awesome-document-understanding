@@ -376,6 +376,7 @@ Related NLP topics:
 1. [Noun Phrase Canonicalization](https://github.com/sebastianruder/NLP-progress/blob/master/english/information_extraction.md#noun-phrase-canonicalization)
 
 Others:
+1. [cleanlab](https://github.com/cleanlab/cleanlab) ![](https://img.shields.io/github/stars/cleanlab/cleanlab.svg?style=social) -  The standard package for machine learning with noisy labels and finding mislabeled data. Works with most datasets and models. 
 1. [CommonRegex](https://github.com/madisonmay/CommonRegex) ![](https://img.shields.io/github/stars/madisonmay/CommonRegex.svg?style=social) - find all times, dates, links, phone numbers, emails, ip addresses, prices, hex colors, and credit card numbers in a string
 1. [Name Parser](https://github.com/derek73/python-nameparser) ![](https://img.shields.io/github/stars/derek73/python-nameparser.svg?style=social) - parsing human names into their individual components 
 1. [pyahocorasick](https://github.com/WojciechMula/pyahocorasick) ![](https://img.shields.io/github/stars/WojciechMula/pyahocorasick.svg?style=social) - is a fast and memory efficient library for exact or approximate multi-pattern string search meaning that you can find multiple key strings occurrences at once in some input text
