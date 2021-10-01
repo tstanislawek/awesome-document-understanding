@@ -13,6 +13,13 @@ A curated list of resources for Document Understanding (DU) topic related to Int
 <br/><br/> 
 
 
+<p align="center">
+  <a href="https://openreview.net/forum?id=rNs2FvJGDK">
+    <img src="images/du_example.png">
+  </a>
+</p>
+<br/><br/>
+
 # Table of contents
 
 1. [Introduction](#introduction) 

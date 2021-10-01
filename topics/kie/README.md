@@ -265,10 +265,10 @@
 
 #### English 
 
-* **[Measuring the State of Document Understanding ](https://openreview.net/forum?id=tNMPcy9PovC)**, \[[Website](https://duebenchmark.com/leaderboard) \] 
+* **[DUE: End-to-End Document Understanding Benchmark](https://openreview.net/forum?id=rNs2FvJGDK)**, \[[Website](https://duebenchmark.com/leaderboard) \] 
   <details>
   <summary> Łukasz Borchmann, Michał Pietruszka, Tomasz Stanislawek, Dawid Jurkiewicz, Michał Turski, Karolina Szyndler, Filip Graliński <em></em> 2021 </summary>
-    Understanding documents with rich layouts plays a vital role in digitization and hyper-automation but remains a challenging topic in the NLP research community. Additionally, the lack of a commonly accepted benchmark made it difficult to quantify progress in the domain. To empower research in Document Understanding, we present a suite of tasks that fulfill the highest quality, difficulty, and licensing criteria. The benchmark includes Visual Question Answering, Key Information Extraction, and Machine Reading Comprehension tasks over various document domains, and layouts featuring tables, graphs, lists, and infographics. The current study reports systematic baselines making use of recent advances in layout-aware language modeling. To support adoption by other researchers, both the benchmarks and reference implementations will be shortly released. 
+    Understanding documents with rich layouts plays a vital role in digitization and hyper-automation but remains a challenging topic in the NLP research community. Additionally, the lack of a commonly accepted benchmark made it difficult to quantify progress in the domain. To empower research in this field, we introduce the Document Understanding Evaluation (DUE) benchmark consisting of both available and reformulated datasets to measure the end-to-end capabilities of systems in real-world scenarios. The benchmark includes Visual Question Answering, Key Information Extraction, and Machine Reading Comprehension tasks over various document domains and layouts featuring tables, graphs, lists, and infographics. In addition, the current study reports systematic baselines and analyses challenges in currently available datasets using recent advances in layout-aware language modeling. 
   </details>
 
 * [Spatial Dual-Modality Graph Reasoning for Key Information Extraction](https://arxiv.org/pdf/2103.14470.pdf), \[[Website](https://mmocr.readthedocs.io/en/latest/datasets.html#key-information-extraction) \] 
