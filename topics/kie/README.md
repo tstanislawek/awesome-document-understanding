@@ -8,7 +8,6 @@
 
 ## Papers 
 
-
 #### 2021
 
 * *[SelfDoc: Self-Supervised Document Representation Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Li_SelfDoc_Self-Supervised_Document_Representation_Learning_CVPR_2021_paper.html)*, \[[code\data](https://github.com/microsoft/unilm/tree/master/layoutreader) \]
