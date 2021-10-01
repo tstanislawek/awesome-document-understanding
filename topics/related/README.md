@@ -10,6 +10,12 @@
 
 #### 2021
 
+* [Vision-and-Language or Vision-for-Language? On Cross-Modal Influence in Multimodal Transformers](https://arxiv.org/abs/2109.04448) 
+  <details>
+  <summary> Stella Frank, Emanuele Bugliarello, Desmond Elliott <em>EMNLP</em> 2021 </summary>
+    Pretrained vision-and-language BERTs aim to learn representations that combine information from both modalities. We propose a diagnostic method based on cross-modal input ablation to assess the extent to which these models actually integrate cross-modal information. This method involves ablating inputs from one modality, either entirely or selectively based on cross-modal grounding alignments, and evaluating the model prediction performance on the other modality. Model performance is measured by modality-specific tasks that mirror the model pretraining objectives (e.g. masked language modelling for text). Models that have learned to construct cross-modal representations using both modalities are expected to perform worse when inputs are missing from a modality. We find that recently proposed models have much greater relative difficulty predicting text when visual information is ablated, compared to predicting visual object categories when text is ablated, indicating that these models are not symmetrically cross-modal.  
+  </details>
+
 * [NT5?! Training T5 to Perform Numerical Reasoning](https://arxiv.org/pdf/2104.07307.pdf), \[[code](https://github.com/lesterpjy/numeric-t5) ![](https://img.shields.io/github/stars/lesterpjy/numeric-t5.svg?style=social)\] 
   <details>
   <summary> Peng-Jian Yang, Ying Ting Chen, Yuechan Chen, Daniel Cer <em>arxiv</em> 2021 </summary>
@@ -89,7 +95,6 @@
   <summary> Jonathan Herzig, Thomas Müller, Syrine Krichene, Julian Martin Eisenschlos  <em>NAACL</em> 2021 </summary>
     Recent advances in open-domain QA have led to strong models based on dense retrieval, but only focused on retrieving textual passages. In this work, we tackle open-domain QA over tables for the first time, and show that retrieval can be improved by a retriever designed to handle tabular context. We present an effective pre-training procedure for our retriever and improve retrieval quality with mined hard negatives. As relevant datasets are missing, we extract a subset of NATURAL QUESTIONS (Kwiatkowski et al., 2019) into a Table QA dataset. We find that our retriever improves retrieval results from 72.0 to 81.1 recall@10 and end-to-end QA results from 33.8 to 37.7 exact match, over a BERT based retriever
   </details>
-  
  #### 2020
 
 * **[TURL: Table Understanding through Representation Learning](https://arxiv.org/pdf/2006.14806.pdf)**, \[[code](https://github.com/sunlab-osu/TURL) ![](https://img.shields.io/github/stars/sunlab-osu/TURL.svg?style=social)\]
@@ -155,6 +160,11 @@
 
 #### Information retrieval from tables
 
+* [TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance](https://arxiv.org/abs/2105.07624), \[[code\data](https://github.com/NExTplusplus/TAT-QA) ![](https://img.shields.io/github/stars/NExTplusplus/TAT-QA.svg?style=social)\] 
+  <details>
+  <summary> Fengbin Zhu, Wenqiang Lei, Youcheng Huang, Chao Wang, Shuo Zhang, Jiancheng Lv, Fuli Feng, Tat-Seng Chua <em>ACL</em> 2021 </summary>
+     Hybrid data combining both tabular and textual content (e.g., financial reports) are quite pervasive in the real world. However, Question Answering (QA) over such hybrid data is largely neglected in existing research. In this work, we extract samples from real financial reports to build a new large-scale QA dataset containing both Tabular And Textual data, named TAT-QA, where numerical reasoning is usually required to infer the answer, such as addition, subtraction, multiplication, division, counting, comparison/sorting, and the compositions. We further propose a novel QA model termed TAGOP, which is capable of reasoning over both tables and text. It adopts sequence tagging to extract relevant cells from the table along with relevant spans from the text to infer their semantics, and then applies symbolic reasoning over them with a set of aggregation operators to arrive at the final answer. TAGOPachieves 58.0% inF1, which is an 11.1% absolute increase over the previous best baseline model, according to our experiments on TAT-QA. But this result still lags far behind performance of expert human, i.e.90.8% in F1. It is demonstrated that our TAT-QA is very challenging and can serve as a benchmark for training and testing powerful QA models that address hybrid form data.  
+  </details>
 
 * [Open Question Answering over Tables and Text](https://arxiv.org/pdf/2010.10439.pdf), \[[code](https://github.com/wenhuchen/OTT-QA) ![](https://img.shields.io/github/stars/wenhuchen/OTT-QA.svg?style=social)\] 
   <details>
@@ -167,7 +177,13 @@
   <summary> Linyong Nan et al. <em>arXiv</em> 2021 </summary>
      Existing table question answering datasets contain abundant factual questions that primarily evaluate the query and schema comprehension capability of a system, but they fail to include questions that require complex reasoning and integration of information due to the constraint of the associated short-form answers. To address these issues and to demonstrate the full challenge of table question answering, we introduce FeTaQA, a new dataset with 10K Wikipedia-based {table, question, free-form answer, supporting table cells} pairs. FeTaQA yields a more challenging table question answering setting because it requires generating free-form text answers after retrieval, inference, and integration of multiple discontinuous facts from a structured knowledge source. Unlike datasets of generative QA over text in which answers are prevalent with copies of short text spans from the source, answers in our dataset are human-generated explanations involving entities and their high-level relations. We provide two benchmark methods for the proposed task: a pipeline method based on semantic-parsing-based QA systems and an end-to-end method based on large pretrained text generation models, and show that FeTaQA poses a challenge for both methods. 
   </details>
-  
+
+* [INFOTABS: Inference on Tables as Semi-structured Data](https://arxiv.org/abs/2005.06117), \[[webpage\code\data](https://infotabs.github.io/) \] 
+  <details>
+  <summary> Vivek Gupta, Maitrey Mehta, Pegah Nokhiz, Vivek Srikumar <em>ACL</em> 2020 </summary>
+     In this paper, we observe that semi-structured tabulated text is ubiquitous; understanding them requires not only comprehending the meaning of text fragments, but also implicit relationships between them. We argue that such data can prove as a testing ground for understanding how we reason about information. To study this, we introduce a new dataset called INFOTABS, comprising of human-written textual hypotheses based on premises that are tables extracted from Wikipedia info-boxes. Our analysis shows that the semi-structured, multi-domain and heterogeneous nature of the premises admits complex, multi-faceted reasoning. Experiments reveal that, while human annotators agree on the relationships between a table-hypothesis pair, several standard modeling strategies are unsuccessful at the task, suggesting that reasoning about tables can pose a difficult modeling challenge.  
+  </details>
+
 * [TabFact: A Large-scale Dataset for Table-based Fact Verification](https://openreview.net/pdf?id=rkeJRhNYDH), \[[code](https://github.com/wenhuchen/Table-Fact-Checking) ![](https://img.shields.io/github/stars/wenhuchen/Table-Fact-Checking.svg?style=social)\] 
   <details>
   <summary> Wenhu Chen, Hongmin Wang, Jianshu Chen, Yunkai Zhang, Hong Wang,Shiyang Li, Xiyou Zhou, William Yang Wang <em>ICLR</em> 2020 </summary>

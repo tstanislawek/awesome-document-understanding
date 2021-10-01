@@ -8,12 +8,25 @@
 
 ## Benchmarks 
 
+1. Best OCR by Text Extraction Accuracy in 2021, https://research.aimultiple.com/ocr-accuracy/
 1. Best OCR Software of 2021, https://nanonets.com/blog/ocr-software-best-ocr-software/ 
 1. Comparison of OCR tools: how to choose the best tool for your project, https://medium.com/dida-machine-learning/comparison-of-ocr-tools-how-to-choose-the-best-tool-for-your-project-bd21fb9dce6b
 1. Our Search for the Best OCR Tool, and What We Found, 2019, https://source.opennews.org/articles/so-many-ocr-options/ (https://github.com/factful/ocr_testing)
 
 
 ## Papers 
+
+* [TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models](https://arxiv.org/abs/2109.10282), \[[code/data](https://github.com/microsoft/unilm/tree/master/trocr) \]
+  <details>
+  <summary> Minghao Li, Tengchao Lv, Lei Cui, Yijuan Lu, Dinei Florencio, Cha Zhang, Zhoujun Li, Furu Wei <em>arxiv</em> 2021 </summary>
+    Text recognition is a long-standing research problem for document digitalization. Existing approaches for text recognition are usually built based on CNN for image understanding and RNN for char-level text generation. In addition, another language model is usually needed to improve the overall accuracy as a post-processing step. In this paper, we propose an end-to-end text recognition approach with pre-trained image Transformer and text Transformer models, namely TrOCR, which leverages the Transformer architecture for both image understanding and wordpiece-level text generation. The TrOCR model is simple but effective, and can be pre-trained with large-scale synthetic data and fine-tuned with human-labeled datasets. Experiments show that the TrOCR model outperforms the current state-of-the-art models on both printed and handwritten text recognition tasks.  
+  </details>
+
+* [Lights, Camera, Action! A Framework to Improve NLP Accuracy over OCR documents](https://arxiv.org/abs/2108.02899)
+  <details>
+  <summary> Amit Gupte, Alexey Romanov, Sahitya Mantravadi, Dalitso Banda, Jianjie Liu, Raza Khan, Lakshmanan Ramu Meenal, Benjamin Han, Soundar Srinivasan <em> Document Intelligence Workshop at KDD</em> 2021 </summary>
+    Document digitization is essential for the digital transformation of our societies, yet a crucial step in the process, Optical Character Recognition (OCR), is still not perfect. Even commercial OCR systems can produce questionable output depending on the fidelity of the scanned documents. In this paper, we demonstrate an effective framework for mitigating OCR errors for any downstream NLP task, using Named Entity Recognition (NER) as an example. We first address the data scarcity problem for model training by constructing a document synthesis pipeline, generating realistic but degraded data with NER labels. We measure the NER accuracy drop at various degradation levels and show that a text restoration model, trained on the degraded data, significantly closes the NER accuracy gaps caused by OCR errors, including on an out-of-domain dataset. For the benefit of the community, we have made the document synthesis pipeline available as an open-source project. 
+  </details>
 
 * [Text Recognition in the Wild: A Survey](https://arxiv.org/pdf/2005.03492.pdf)
   <details>
@@ -34,8 +47,10 @@
 
 ## Useful links 
 
-1. https://github.com/open-mmlab/mmocr 
-1. https://github.com/Belval/TextRecognitionDataGenerator 
-1. http://tc11.cvc.uab.es/datasets/type/
-1. https://www.primaresearch.org/
-1. http://iapr-tc11.org/mediawiki/index.php?title=IAPR-TC11:Reading_Systems
+1. **https://github.com/mindee/doctr - alternative for Tesseract project!**
+2. https://mindee.com/
+3. https://github.com/open-mmlab/mmocr 
+4. https://github.com/Belval/TextRecognitionDataGenerator 
+5. http://tc11.cvc.uab.es/datasets/type/
+6. https://www.primaresearch.org/
+7. http://iapr-tc11.org/mediawiki/index.php?title=IAPR-TC11:Reading_Systems

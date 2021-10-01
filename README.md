@@ -129,6 +129,7 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 #### PDF processing tools
 
+1. [borb](https://github.com/jorisschellekens/borb) ![](https://img.shields.io/github/stars/jorisschellekens/borb.svg?style=social) - is a pure python library to read, write and manipulate PDF documents. It represents a PDF document as a JSON-like datastructure of nested lists, dictionaries and primitives (numbers, string, booleans, etc).
 1. [pawls](https://github.com/allenai/pawls) ![](https://img.shields.io/github/stars/allenai/pawls.svg?style=social) - PDF Annotations with Labels and Structure is software that makes it easy to collect a series of annotations associated with a PDF document
 1. [pdfplumber](https://github.com/jsvine/pdfplumber) ![](https://img.shields.io/github/stars/jsvine/pdfplumber.svg?style=social) - Plumb a PDF for detailed information about each text character, rectangle, and line. Plus: Table extraction and visual debugging
 1. [Pdfminer.six](https://github.com/pdfminer/pdfminer.six) ![](https://img.shields.io/github/stars/pdfminer/pdfminer.six.svg?style=social) - Pdfminer.six is a community maintained fork of the original PDFMiner. It is a tool for extracting information from PDF documents. It focuses on getting and analyzing text data 
