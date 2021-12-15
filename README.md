@@ -211,6 +211,7 @@ Smaller:
 1. [Nanonets](https://nanonets.com)
 1. [Rossum](https://rossum.ai/)
 1. [Silo](https://silo.ai/how-document-understanding-improves-invoice-contract-and-resume-processing/)
+1. [Metamaze](https://metamaze.eu)
 
 # Examples
 
