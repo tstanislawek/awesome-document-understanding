@@ -57,7 +57,7 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 #### 2021 
 
-**[Application of Cognitive Automation to Structuring Data, Driving Existing Business Models, and Creating Value between Legacy Industries](https://doi.org/10.1142/S0219877022500031)**
+* **[Application of Cognitive Automation to Structuring Data, Driving Existing Business Models, and Creating Value between Legacy Industries](https://doi.org/10.1142/S0219877022500031)**
   <details>
   <summary>Christopher Helm, Tim Alexander Herberger and Nicolay Gerold <em>International Journal of Innovation and Technology Management</em> 2021 </summary>
     To build high quality datasets and unlock the value of unstructured data, a systematic approach for data capture is necessary. Cognitive automation (CA), that is, automation of processes with artificial intelligence (AI), enables the information extraction from unstructured data to provide relevant insights and further processing with AI. This study provides an overview of this new technology and shows how it can be used to transform existing business models. Our case studies in the insurance auditing, healthcare, and banking industries show the potential managerial impact of CA, which prepares these legacy industries for their digital future’s challenges and opportunities. We present the novel data extraction pipeline for textual and visual data and demonstrate its efficiency in extracting information from the company’s unstructured data. We show its performance in quality, cost, and time compared with current industry standards and provide management insights for business applications using CA.
