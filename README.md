@@ -57,13 +57,6 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 #### 2021 
 
-* **[Application of Cognitive Automation to Structuring Data, Driving Existing Business Models, and Creating Value between Legacy Industries](https://doi.org/10.1142/S0219877022500031)**
-  <details>
-  <summary>Christopher Helm, Tim Alexander Herberger and Nicolay Gerold <em>International Journal of Innovation and Technology Management</em> 2021 </summary>
-    To build high quality datasets and unlock the value of unstructured data, a systematic approach for data capture is necessary. Cognitive automation (CA), that is, automation of processes with artificial intelligence (AI), enables the information extraction from unstructured data to provide relevant insights and further processing with AI. This study provides an overview of this new technology and shows how it can be used to transform existing business models. Our case studies in the insurance auditing, healthcare, and banking industries show the potential managerial impact of CA, which prepares these legacy industries for their digital future’s challenges and opportunities. We present the novel data extraction pipeline for textual and visual data and demonstrate its efficiency in extracting information from the company’s unstructured data. We show its performance in quality, cost, and time compared with current industry standards and provide management insights for business applications using CA.
-  </details>
-
-
 * **[Efficient Automated Processing of the Unstructured Documents using Artificial Intelligence: A Systematic Literature Review and Future Directions](https://ieeexplore.ieee.org/abstract/document/9402739)**
   <details>
   <summary> Dipali Baviskar, Swati Ahirrao, Vidyasagar Potdar, Ketan Kotecha <em>IEEE Access</em> 2021 </summary>
@@ -91,6 +84,11 @@ Documents are a core part of many businesses in many fields such as law, finance
   </details>
 
 #### 2018
+
+* [Chargrid: Towards Understanding 2D Documents](https://arxiv.org/abs/1809.08799)
+  <details>
+  <summary>Anoop Raveendra Katti, Christian Reisswig, Cordula Guder, Sebastian Brarda, Steffen Bickel, Johannes Höhne, Jean Baptiste Faddoul <em>EMNLP</em> 2018 </summary>We introduce a novel type of text representation that preserves the 2D layout of a document. This is achieved by encoding each document page as a two-dimensional grid of characters. Based on this representation, we present a generic document understanding pipeline for structured documents. This pipeline makes use of a fully convolutional encoder-decoder network that predicts a segmentation mask and bounding boxes. We demonstrate its capabilities on an information extraction task from invoices and show that it significantly outperforms approaches based on sequential text or document images. Code can be found [here](https://github.com/antoinedelplace/Chargrid).
+  </details>
 
 * [Future paradigms of automated processing of business documents](https://www.sciencedirect.com/science/article/pii/S0268401217309994)
   <details>
@@ -215,10 +213,10 @@ Smaller:
 1. [Docstack](https://www.docstack.com/ai-document-understanding)
 1. [Element AI](https://www.elementai.com/products/document-intelligence)
 1. [Indico](https://indico.io)
-1. [Nanonets](https://nanonets.com)
-1. [Rossum](https://rossum.ai/)
-1. [Silo](https://silo.ai/how-document-understanding-improves-invoice-contract-and-resume-processing/)
 1. [Konfuzio](https://konfuzio.com/en/)
+3. [Nanonets](https://nanonets.com)
+4. [Rossum](https://rossum.ai/)
+5. [Silo](https://silo.ai/how-document-understanding-improves-invoice-contract-and-resume-processing/)
 
 # Examples
 
