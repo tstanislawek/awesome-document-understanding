@@ -85,11 +85,6 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 #### 2018
 
-* [Chargrid: Towards Understanding 2D Documents](https://arxiv.org/abs/1809.08799)
-  <details>
-  <summary>Anoop Raveendra Katti, Christian Reisswig, Cordula Guder, Sebastian Brarda, Steffen Bickel, Johannes Höhne, Jean Baptiste Faddoul <em>EMNLP</em> 2018 </summary>We introduce a novel type of text representation that preserves the 2D layout of a document. This is achieved by encoding each document page as a two-dimensional grid of characters. Based on this representation, we present a generic document understanding pipeline for structured documents. This pipeline makes use of a fully convolutional encoder-decoder network that predicts a segmentation mask and bounding boxes. We demonstrate its capabilities on an information extraction task from invoices and show that it significantly outperforms approaches based on sequential text or document images. Code can be found [here](https://github.com/antoinedelplace/Chargrid).
-  </details>
-
 * [Future paradigms of automated processing of business documents](https://www.sciencedirect.com/science/article/pii/S0268401217309994)
   <details>
   <summary> Matteo Cristania, Andrea Bertolasob, Simone Scannapiecoc, Claudio Tomazzolia <em>International Journal of Information Management</em> 2018 </summary>
