@@ -208,10 +208,10 @@ Smaller:
 1. [Docstack](https://www.docstack.com/ai-document-understanding)
 1. [Element AI](https://www.elementai.com/products/document-intelligence)
 1. [Indico](https://indico.io)
+1. [Metamaze](https://metamaze.eu)
 1. [Nanonets](https://nanonets.com)
 1. [Rossum](https://rossum.ai/)
 1. [Silo](https://silo.ai/how-document-understanding-improves-invoice-contract-and-resume-processing/)
-1. [Metamaze](https://metamaze.eu)
 
 # Examples
 
