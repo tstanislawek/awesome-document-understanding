@@ -205,6 +205,7 @@ Big companies:
 
 Smaller:
 1. [Applica.ai](https://applica.ai/)
+1. [Base64.ai](https://base64.ai)
 1. [Docstack](https://www.docstack.com/ai-document-understanding)
 1. [Element AI](https://www.elementai.com/products/document-intelligence)
 1. [Indico](https://indico.io)
