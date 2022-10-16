@@ -128,10 +128,10 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 #### Datasets for Pre-training Language Models
 
-1. [The RVL-CDIP Dataset](https://www.cs.cmu.edu/~aharley/rvl-cdip/) - dataset consists of 400,000 grayscale images in 16 classes, with 25,000 images per class
+1. [The RVL-CDIP Dataset](https://adamharley.com/rvl-cdip/) - dataset consists of 400,000 grayscale images in 16 classes, with 25,000 images per class
 1. [The Industry Documents Library](https://www.industrydocuments.ucsf.edu/) - a portal to millions of documents created by industries that influence public health, hosted by the UCSF Library
-1. [Color Document Dataset](www.science.uva.nl/UvA-CDD/UvA-CDD.tar.gz) - from the Intelligent Sensory Information Systems, University of Amsterdam
-1. [The IIT CDIP Test Collection](https://ir.nist.gov/cdip/README.txt) - broken, see [github discussion](https://github.com/cneud/ocr-gt/issues/12)
+1. [Color Document Dataset](https://ivi.fnwi.uva.nl/isis/UvA-CDD/) - from the Intelligent Sensory Information Systems, University of Amsterdam
+1. [The IIT CDIP Collection](https://data.nist.gov/od/id/mds2-2531) - dataset consists of documents from the states' lawsuit against the tobacco industry in the 1990s, consists of around 7 million documents
 
 
 #### PDF processing tools
