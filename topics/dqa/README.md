@@ -7,9 +7,43 @@
 
 ## Papers 
 
+#### 2022
+
+* *[ERNIE-Layout: Layout Knowledge Enhanced Pre-training for Visually-rich Document Understanding](https://arxiv.org/abs/2210.06155)*, 
+  <details>
+  <summary> Qiming Peng, Yinxu Pan, Wenjin Wang, Bin Luo, Zhenyu Zhang, Zhengjie Huang, Teng Hu, Weichong Yin, Yongfeng Chen, Yin Zhang, Shikun Feng, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang <em>EMNLP (Findings)</em> 2022 </summary>
+    Recent years have witnessed the rise and success of pre-training techniques in visually-rich document understanding. However, most existing methods lack the systematic mining and utilization of layout-centered knowledge, leading to sub-optimal performances. In this paper, we propose ERNIE-Layout, a novel document pre-training solution with layout knowledge enhancement in the whole workflow, to learn better representations that combine the features from text, layout, and image. Specifically, we first rearrange input sequences in the serialization stage, and then present a correlative pre-training task, reading order prediction, to learn the proper reading order of documents. To improve the layout awareness of the model, we integrate a spatial-aware disentangled attention into the multi-modal transformer and a replaced regions prediction task into the pre-training phase. Experimental results show that ERNIE-Layout achieves superior performance on various downstream tasks, setting new state-of-the-art on key information extraction, document image classification, and document question answering datasets.   
+  </details>
+  
+* **[Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding](https://arxiv.org/abs/2210.03347)**, 
+  <details>
+  <summary> Kenton Lee, Mandar Joshi, Iulia Turc, Hexiang Hu, Fangyu Liu, Julian Eisenschlos, Urvashi Khandelwal, Peter Shaw, Ming-Wei Chang, Kristina Toutanova <em>arxiv</em> 2022 </summary>
+    Visually-situated language is ubiquitous -- sources range from textbooks with diagrams to web pages with images and tables, to mobile apps with buttons and forms. Perhaps due to this diversity, previous work has typically relied on domain-specific recipes with limited sharing of the underlying data, model architectures, and objectives. We present Pix2Struct, a pretrained image-to-text model for purely visual language understanding, which can be finetuned on tasks containing visually-situated language. Pix2Struct is pretrained by learning to parse masked screenshots of web pages into simplified HTML. The web, with its richness of visual elements cleanly reflected in the HTML structure, provides a large source of pretraining data well suited to the diversity of downstream tasks. Intuitively, this objective subsumes common pretraining signals such as OCR, language modeling, image captioning. In addition to the novel pretraining strategy, we introduce a variable-resolution input representation and a more flexible integration of language and vision inputs, where language prompts such as questions are rendered directly on top of the input image. For the first time, we show that a single pretrained model can achieve state-of-the-art results in six out of nine tasks across four domains: documents, illustrations, user interfaces, and natural images.  
+  </details>
+
+* **[OCR-free Document Understanding Transformer](https://arxiv.org/abs/2111.15664)**, 
+  <details>
+  <summary> Geewook Kim, Teakgyu Hong, Moonbin Yim, Jeongyeon Nam, Jinyoung Park, Jinyeong Yim, Wonseok Hwang, Sangdoo Yun, Dongyoon Han, Seunghyun Park <em>ECCV</em> 2022 </summary>
+    Understanding document images (e.g., invoices) is a core but challenging task since it requires complex functions such as reading text and a holistic understanding of the document. Current Visual Document Understanding (VDU) methods outsource the task of reading text to off-the-shelf Optical Character Recognition (OCR) engines and focus on the understanding task with the OCR outputs. Although such OCR-based approaches have shown promising performance, they suffer from 1) high computational costs for using OCR; 2) inflexibility of OCR models on languages or types of document; 3) OCR error propagation to the subsequent process. To address these issues, in this paper, we introduce a novel OCR-free VDU model named Donut, which stands for Document understanding transformer. As the first step in OCR-free VDU research, we propose a simple architecture (i.e., Transformer) with a pre-training objective (i.e., cross-entropy loss). Donut is conceptually simple yet effective. Through extensive experiments and analyses, we show a simple OCR-free VDU model, Donut, achieves state-of-the-art performances on various VDU tasks in terms of both speed and accuracy. In addition, we offer a synthetic data generator that helps the model pre-training to be flexible in various languages and domains.  
+  </details>
+
+* **[LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking](https://arxiv.org/abs/2204.08387)**, 
+  <details>
+  <summary> Yupan Huang, Tengchao Lv, Lei Cui, Yutong Lu, Furu Wei <em>ACM Multimedia</em> 2022 </summary>
+    Self-supervised pre-training techniques have achieved remarkable progress in Document AI. Most multimodal pre-trained models use a masked language modeling objective to learn bidirectional representations on the text modality, but they differ in pre-training objectives for the image modality. This discrepancy adds difficulty to multimodal representation learning. In this paper, we propose \textbf{LayoutLMv3} to pre-train multimodal Transformers for Document AI with unified text and image masking. Additionally, LayoutLMv3 is pre-trained with a word-patch alignment objective to learn cross-modal alignment by predicting whether the corresponding image patch of a text word is masked. The simple unified architecture and training objectives make LayoutLMv3 a general-purpose pre-trained model for both text-centric and image-centric Document AI tasks. Experimental results show that LayoutLMv3 achieves state-of-the-art performance not only in text-centric tasks, including form understanding, receipt understanding, and document visual question answering, but also in image-centric tasks such as document image classification and document layout analysis. 
+  </details>
+
+* [STable: Table Generation Framework for Encoder-Decoder Models](https://arxiv.org/abs/2206.04045)
+  <details>
+  <summary> Michał Pietruszka, Michał Turski, Łukasz Borchmann, Tomasz Dwojak, Gabriela Pałka, Karolina Szyndler, Dawid Jurkiewicz, Łukasz Garncarek <em>arxiv</em> 2022 </summary>
+     The output structure of database-like tables, consisting of values structured in horizontal rows and vertical columns identifiable by name, can cover a wide range of NLP tasks. Following this constatation, we propose a framework for text-to-table neural models applicable to problems such as extraction of line items, joint entity and relation extraction, or knowledge base population. The permutation-based decoder of our proposal is a generalized sequential method that comprehends information from all cells in the table. The training maximizes the expected log-likelihood for a table's content across all random permutations of the factorization order. During the content inference, we exploit the model's ability to generate cells in any order by searching over possible orderings to maximize the model's confidence and avoid substantial error accumulation, which other sequential models are prone to. Experiments demonstrate a high practical value of the framework, which establishes state-of-the-art results on several challenging datasets, outperforming previous solutions by up to 15%. 
+  </details>
+
+#### 2021
+
 * **[Going Full-TILT Boogie on Document Understanding with Text-Image-Layout Transformer](https://arxiv.org/abs/2102.09550)**, 
   <details>
-  <summary> Rafał Powalski, Łukasz Borchmann, Dawid Jurkiewicz, Tomasz Dwojak, Michał Pietruszka, Gabriela Pałka <em>arxiv</em> 2021 </summary>
+  <summary> Rafał Powalski, Łukasz Borchmann, Dawid Jurkiewicz, Tomasz Dwojak, Michał Pietruszka, Gabriela Pałka <em>ICDAR</em> 2021 </summary>
     We address the challenging problem of Natural Language Comprehension beyond plain-text documents by introducing the TILT neural network architecture which simultaneously learns layout information, visual features, and textual semantics. Contrary to previous approaches, we rely on a decoder capable of unifying a variety of problems involving natural language. The layout is represented as an attention bias and complemented with contextualized visual information, while the core of our model is a pretrained encoder-decoder Transformer. Our novel approach achieves state-of-the-art results in extracting information from documents and answering questions which demand layout understanding (DocVQA, CORD, WikiOps, SROIE). At the same time, we simplify the process by employing an end-to-end model.
   </details>
 
@@ -19,6 +53,8 @@
     In open question answering (QA), the answer to a question is produced by retrieving and then analyzing documents that might contain answers to the question. Most open QA systems have considered only retrieving information from unstructured text. Here we consider for the first time open QA over both tabular and textual data and present a new large-scale dataset Open Table-and-Text Question Answering (OTT-QA) to evaluate performance on this task. Most questions in OTT-QA require multi-hop inference across tabular data and unstructured text, and the evidence required to answer a question can be distributed in different ways over these two types of input, making evidence retrieval challenging -- our baseline model using an iterative retriever and BERT-based reader achieves an exact match score less than 10%. We then propose two novel techniques to address the challenge of retrieving and aggregating evidence for OTT-QA. The first technique is to use "early fusion" to group multiple highly relevant tabular and textual units into a fused block, which provides more context for the retriever to search for. The second technique is to use a cross-block reader to model the cross-dependency between multiple retrieved evidence with global-local sparse attention. Combining these two techniques improves the score significantly, to above 27%. 
   </details>
 
+#### 2020
+
 * [Finding the Evidence: Localization-aware Answer Prediction for Text Visual Question Answering](https://arxiv.org/abs/2010.02582)
   <details>
   <summary> Wei Han, Hantao Huang, Tao Han <em>COLING</em> 2020 </summary>
@@ -26,6 +62,40 @@
   </details>
 
 ## Datasets 
+
+#### 2022
+
+* [(TAT-DQA) Towards Complex Document Understanding By Discrete Reasoning](https://arxiv.org/abs/2207.11871), \[[website](https://nextplusplus.github.io/TAT-DQA/) ]
+  <details>
+  <summary> Fengbin Zhu, Wenqiang Lei, Fuli Feng, Chao Wang, Haozhou Zhang, Tat-Seng Chua<em>ACM Multimedia</em> 2021 </summary>
+    Document Visual Question Answering (VQA) aims to understand visually-rich documents to answer questions in natural language, which is an emerging research topic for both Natural Language Processing and Computer Vision. In this work, we introduce a new Document VQA dataset, named TAT-DQA, which consists of 3,067 document pages comprising semi-structured table(s) and unstructured text as well as 16,558 question-answer pairs by extending the TAT-QA dataset. These documents are sampled from real-world financial reports and contain lots of numbers, which means discrete reasoning capability is demanded to answer questions on this dataset. Based on TAT-DQA, we further develop a novel model named MHST that takes into account the information in multi-modalities, including text, layout and visual image, to intelligently address different types of questions with corresponding strategies, i.e., extraction or reasoning. Extensive experiments show that the MHST model significantly outperforms the baseline methods, demonstrating its effectiveness. However, the performance still lags far behind that of expert humans. We expect that our new TAT-DQA dataset would facilitate the research on deep understanding of visually-rich documents combining vision and language, especially for scenarios that require discrete reasoning. Also, we hope the proposed model would inspire researchers to design more advanced Document VQA models in future. 
+  </details>
+
+* [Open Domain Question Answering over Tables via Dense Retrieval](https://arxiv.org/abs/2108.06712)
+  <details>
+  <summary>Zhoujun Cheng, Haoyu Dong, Zhiruo Wang, Ran Jia, Jiaqi Guo, Yan Gao, Shi Han, Jian-Guang Lou, Dongmei Zhang <em>ACL</em> 2022 </summary>
+    Tables are often created with hierarchies, but existing works on table reasoning mainly focus on flat tables and neglect hierarchical tables. Hierarchical tables challenge existing methods by hierarchical indexing, as well as implicit relationships of calculation and semantics. This work presents HiTab, a free and open dataset to study question answering (QA) and natural language generation (NLG) over hierarchical tables. HiTab is a cross-domain dataset constructed from a wealth of statistical reports (analyses) and Wikipedia pages, and has unique characteristics: (1) nearly all tables are hierarchical, and (2) both target sentences for NLG and questions for QA are revised from original, meaningful, and diverse descriptive sentences authored by analysts and professions of reports. (3) to reveal complex numerical reasoning in statistical analyses, we provide fine-grained annotations of entity and quantity alignment. HiTab provides 10,686 QA pairs and descriptive sentences with well-annotated quantity and entity alignment on 3,597 tables with broad coverage of table hierarchies and numerical reasoning types. Targeting hierarchical structure, we devise a novel hierarchy-aware logical form for symbolic reasoning over tables, which shows high effectiveness. Targeting complex numerical reasoning, we propose partially supervised training given annotations of entity and quantity alignment, which helps models to largely reduce spurious predictions in the QA task. In the NLG task, we find that entity and quantity alignment also helps NLG models to generate better results in a conditional generation setting. Experiment results of state-of-the-art baselines suggest that this dataset presents a strong challenge and a valuable benchmark for future research. 
+  </details>
+
+* [MultiHiertt: Numerical Reasoning over Multi Hierarchical Tabular and Textual Data](https://aclanthology.org/2022.acl-long.454/)
+  <details>
+  <summary>Yilun Zhao, Yunxiang Li, Chenying Li, Rui Zhang <em>ACL</em> 2022 </summary>
+    Numerical reasoning over hybrid data containing both textual and tabular content (e.g., financial reports) has recently attracted much attention in the NLP community. However, existing question answering (QA) benchmarks over hybrid data only include a single flat table in each document and thus lack examples of multi-step numerical reasoning across multiple hierarchical tables. To facilitate data analytical progress, we construct a new large-scale benchmark, MultiHiertt, with QA pairs over Multi Hierarchical Tabular and Textual data. MultiHiertt is built from a wealth of financial reports and has the following unique characteristics: 1) each document contain multiple tables and longer unstructured texts; 2) most of tables contained are hierarchical; 3) the reasoning process required for each question is more complex and challenging than existing benchmarks; and 4) fine-grained annotations of reasoning processes and supporting facts are provided to reveal complex numerical reasoning. We further introduce a novel QA model termed MT2Net, which first applies facts retrieving to extract relevant supporting facts from both tables and text and then uses a reasoning module to perform symbolic reasoning over retrieved facts. We conduct comprehensive experiments on various baselines. The experimental results show that MultiHiertt presents a strong challenge for existing baselines whose results lag far behind the performance of human experts. The dataset and code are publicly available at https://github.com/psunlpgroup/MultiHiertt. 
+  </details>
+
+#### Older
+
+* **[DUE: End-to-End Document Understanding Benchmark ](https://openreview.net/forum?id=rNs2FvJGDK)**, [Website](https://duebenchmark.com/)
+  <details>
+  <summary> Łukasz Borchmann, Michał Pietruszka, Tomasz Stanislawek, Dawid Jurkiewicz, Michał Turski, Karolina Szyndler, Filip Graliński <em>NIPS</em> 2021</summary>
+     Understanding documents with rich layouts plays a vital role in digitization and hyper-automation but remains a challenging topic in the NLP research community. Additionally, the lack of a commonly accepted benchmark made it difficult to quantify progress in the domain. To empower research in this field, we introduce the Document Understanding Evaluation (DUE) benchmark consisting of both available and reformulated datasets to measure the end-to-end capabilities of systems in real-world scenarios. The benchmark includes Visual Question Answering, Key Information Extraction, and Machine Reading Comprehension tasks over various document domains and layouts featuring tables, graphs, lists, and infographics. In addition, the current study reports systematic baselines and analyzes challenges in currently available datasets using recent advances in layout-aware language modeling. 
+  </details>
+
+* **[InfographicVQA](https://arxiv.org/abs/2104.12756)**, [Website](https://www.docvqa.org/)
+  <details>
+  <summary> Minesh Mathew, Viraj Bagal, Rubèn Pérez Tito, Dimosthenis Karatzas, Ernest Valveny, C.V Jawahar <em>Proceedings of the IEEE/CVF</em> 2022</summary>
+    Infographics communicate information using a combination of textual, graphical and visual elements. This work explores the automatic understanding of infographic images by using a Visual Question Answering technique. To this end, we present InfographicVQA, a new dataset comprising a diverse collection of infographics and question-answer annotations. The questions require methods that jointly reason over the document layout, textual content, graphical elements, and data visualizations. We curate the dataset with an emphasis on questions that require elementary reasoning and basic arithmetic skills. For VQA on the dataset, we evaluate two Transformer-based strong baselines. Both the baselines yield unsatisfactory results compared to near perfect human performance on the dataset. The results suggest that VQA on infographics--images that are designed to communicate information quickly and clearly to human brain--is ideal for benchmarking machine understanding of complex document images. 
+  </details>
 
 * **[DocVQA: A Dataset for VQA on Document Images](https://arxiv.org/pdf/2007.00398.pdf)**, [Website](http://docvqa.org/)
   <details>
