@@ -55,18 +55,27 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 ### Papers
 
+#### 2022
+
+* [Business Document Information Extraction: Towards Practical Benchmarks](https://arxiv.org/abs/2206.11229) 
+  <details>
+  <summary> Matyáš Skalický, Štěpán Šimsa, Michal Uřičář, Milan Šulc <em>CLEF</em> 2022 </summary>
+    Information extraction from semi-structured documents is crucial for frictionless business-to-business (B2B) communication. While machine learning problems related to Document Information Extraction (IE) have been studied for decades, many common problem definitions and benchmarks do not reflect domain-specific aspects and practical needs for automating B2B document communication. We review the landscape of Document IE problems, datasets and benchmarks. We highlight the practical aspects missing in the common definitions and define the Key Information Localization and Extraction (KILE) and Line Item Recognition (LIR) problems. There is a lack of relevant datasets and benchmarks for Document IE on semi-structured business documents as their content is typically legally protected or sensitive. We discuss potential sources of available documents including synthetic data.  
+  </details>
+
+
 #### 2021 
+
+* [Document AI: Benchmarks, Models and Applications](https://arxiv.org/abs/2111.08609) 
+  <details>
+  <summary> Lei Cui, Yiheng Xu, Tengchao Lv, Furu Wei <em>arxiv</em> 2021 </summary>
+    Document AI, or Document Intelligence, is a relatively new research topic that refers to the techniques for automatically reading, understanding, and analyzing business documents. It is an important research direction for natural language processing and computer vision. In recent years, the popularity of deep learning technology has greatly advanced the development of Document AI, such as document layout analysis, visual information extraction, document visual question answering, document image classification, etc. This paper briefly reviews some of the representative models, tasks, and benchmark datasets. Furthermore, we also introduce early-stage heuristic rule-based document analysis, statistical machine learning algorithms, and deep learning approaches especially pre-training methods. Finally, we look into future directions for Document AI research. 
+  </details>
 
 * **[Efficient Automated Processing of the Unstructured Documents using Artificial Intelligence: A Systematic Literature Review and Future Directions](https://ieeexplore.ieee.org/abstract/document/9402739)**
   <details>
   <summary> Dipali Baviskar, Swati Ahirrao, Vidyasagar Potdar, Ketan Kotecha <em>IEEE Access</em> 2021 </summary>
     The unstructured data impacts 95% of the organizations and costs them millions of dollars annually. If managed well, it can significantly improve business productivity. The traditional information extraction techniques are limited in their functionality, but AI-based techniques can provide a better solution. A thorough investigation of AI-based techniques for automatic information extraction from unstructured documents is missing in the literature. The purpose of this Systematic Literature Review (SLR) is to recognize, and analyze research on the techniques used for automatic information extraction from unstructured documents and to provide directions for future research. The SLR guidelines proposed by Kitchenham and Charters were adhered to conduct a literature search on various databases between 2010 and 2020. We found that: 1. The existing information extraction techniques are template-based or rule-based, 2. The existing methods lack the capability to tackle complex document layouts in real-time situations such as invoices and purchase orders, 3.The datasets available publicly are task-specific and of low quality. Hence, there is a need to develop a new dataset that reflects real-world problems. Our SLR discovered that AI-based approaches have a strong potential to extract useful information from unstructured documents automatically. However, they face certain challenges in processing multiple layouts of the unstructured documents. Our SLR brings out conceptualization of a framework for construction of high-quality unstructured documents dataset with strong data validation techniques for automated information extraction. Our SLR also reveals a need for a close association between the businesses and researchers to handle various challenges of the unstructured data analysis.
-  </details>
-
-* [Automating Paperwork](https://edwardbenson.com/automating-paperwork) 
-  <details>
-  <summary> Ted Benson <em>-</em> 2021 </summary>
-    Automating Paperwork is a practical, no-hype technical guide for business leaders, product managers, and operations teams who are pursuing a document automation initiative at their company. Its goal is to provide an end-to-end tour of the technical decisions and tradeoffs involved so that you can prepare for success, know what to expect, and ask the right questions of engineers and vendors along the way.
   </details>
 
 #### 2020 
@@ -209,6 +218,7 @@ Smaller:
 1. [Docstack](https://www.docstack.com/ai-document-understanding)
 1. [Element AI](https://www.elementai.com/products/document-intelligence)
 1. [Indico](https://indico.io)
+1. [Instabase](https://instabase.com/)
 1. [Konfuzio](https://konfuzio.com/en/)
 1. [Metamaze](https://metamaze.eu)
 1. [Nanonets](https://nanonets.com)
