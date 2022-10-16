@@ -16,6 +16,12 @@
 
 ## Papers 
 
+* [DavarOCR: A Toolbox for OCR and Multi-Modal Document Understanding](https://arxiv.org/abs/2207.06695), \[[code/](https://github.com/hikopensource/Davar-Lab-OCR) \]
+  <details>
+  <summary> Liang Qiao, Hui Jiang, Ying Chen, Can Li, Pengfei Li, Zaisheng Li, Baorui Zou, Dashan Guo, Yingda Xu, Yunlu Xu, Zhanzhan Cheng, Yi Niu <em>ACM MM</em> 2022 </summary>
+    This paper presents DavarOCR, an open-source toolbox for OCR and document understanding tasks. DavarOCR currently implements 19 advanced algorithms, covering 9 different task forms. DavarOCR provides detailed usage instructions and the trained models for each algorithm. Compared with the previous opensource OCR toolbox, DavarOCR has relatively more complete support for the sub-tasks of the cutting-edge technology of document understanding. In order to promote the development and application of OCR technology in academia and industry, we pay more attention to the use of modules that different sub-domains of technology can share.  
+  </details> 
+
 * [TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models](https://arxiv.org/abs/2109.10282), \[[code/data](https://github.com/microsoft/unilm/tree/master/trocr) \]
   <details>
   <summary> Minghao Li, Tengchao Lv, Lei Cui, Yijuan Lu, Dinei Florencio, Cha Zhang, Zhoujun Li, Furu Wei <em>arxiv</em> 2021 </summary>
