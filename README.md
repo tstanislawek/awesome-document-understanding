@@ -156,7 +156,8 @@ Documents are a core part of many businesses in many fields such as law, finance
 1. [PdfPig](https://github.com/UglyToad/PdfPig) ![](https://img.shields.io/github/stars/UglyToad/PdfPig.svg?style=social) - This project allows users to read and extract text and other content from PDF files. In addition the library can be used to create simple PDF documents containing text and geometrical shapes. This project aims to port PDFBox to C#
 1. [parsing-prickly-pdfs](https://porter.io/github.com/jsfenfen/parsing-prickly-pdfs) ![](https://img.shields.io/github/stars/jsfenfen/parsing-prickly-pdfs.svg?style=social) - Resources and worksheet for the NICAR 2016 workshop of the same name
 1. [pdf-text-extraction-benchmark](https://github.com/ckorzen/pdf-text-extraction-benchmark) ![](https://img.shields.io/github/stars/ckorzen/pdf-text-extraction-benchmark.svg?style=social) - PDF tools benchmark
-1. [Born digital pdf scanner](https://github.com/applicaai/digital-born-pdf-scanner) ![](https://img.shields.io/github/stars/applicaai/digital-born-pdf-scanner.svg?style=social) - checking if pdf is born-digital   
+1. [Born digital pdf scanner](https://github.com/applicaai/digital-born-pdf-scanner) ![](https://img.shields.io/github/stars/applicaai/digital-born-pdf-scanner.svg?style=social) - checking if pdf is born-digital
+1. [OpenContracts](https://github.com/JSv4/OpenContracts) ![](https://img.shields.io/github/stars/JSv4/OpenContracts?style=social) Apache2-licensed, PDF annotating platform for visually-rich documents that preserves the original layout and exports x,y positional data for tokens as well as span starts and stops. Based on PAWLs, but with a Python-based backend and readily deployable on your local machine, company intranet or the web via Docker Compose.
 
 
 ## Conferences, workshops
