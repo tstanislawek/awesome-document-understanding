@@ -141,6 +141,7 @@ Documents are a core part of many businesses in many fields such as law, finance
 1. [The Industry Documents Library](https://www.industrydocuments.ucsf.edu/) - a portal to millions of documents created by industries that influence public health, hosted by the UCSF Library
 1. [Color Document Dataset](https://ivi.fnwi.uva.nl/isis/UvA-CDD/) - from the Intelligent Sensory Information Systems, University of Amsterdam
 1. [The IIT CDIP Collection](https://data.nist.gov/od/id/mds2-2531) - dataset consists of documents from the states' lawsuit against the tobacco industry in the 1990s, consists of around 7 million documents
+1. [FUNSD+](https://konfuzio.com/en/funsd-plus/) - Expand [FUNSD](https://guillaumejaume.github.io/FUNSD/) 199 documents to 1113 noisy scanned documents.
 
 
 #### PDF processing tools
