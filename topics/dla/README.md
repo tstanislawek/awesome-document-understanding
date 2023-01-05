@@ -56,6 +56,12 @@ Document Layout Analysis is a Computer Vision approach to the problem of detecti
 
 ## Datasets 
 
+* [DocLayNet: A Large Human-Annotated Dataset for Document-Layout Analysis](https://arxiv.org/pdf/2206.01062.pdf), \[[code/data](https://github.com/DS4SD/DocLayNet) ![](https://img.shields.io/github/stars/DS4SD/DocLayNet.svg?style=social)\]
+    <details>
+    <summary> Birgit Pfitzmann, Christoph Auer, Michele Dolfi, Ahmed S. Nassar and Peter Staar <em>Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em></summary>
+        In this paper, we present DocLayNet, a new, publicly available, document-layout annotation dataset in COCO format. It contains 80863 manually annotated pages from diverse data sources to represent a wide variability in layouts. For each PDF page, the layout annotations provide labelled bounding-boxes with a choice of 11 distinct classes. DocLayNet also provides a subset of double- and triple-annotated pages to determine the inter-annotator agreement. 
+    </details>
+
 * [DocBank: A Benchmark Dataset for Document Layout Analysis](https://arxiv.org/pdf/2006.01038.pdf), \[[code/data](https://github.com/doc-analysis/DocBank) ![](https://img.shields.io/github/stars/doc-analysis/DocBank.svg?style=social)\]
     <details>
     <summary> Minghao Li et al. <em>COLING</em> 2020 </summary>
