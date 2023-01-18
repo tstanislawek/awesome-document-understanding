@@ -158,7 +158,7 @@ Documents are a core part of many businesses in many fields such as law, finance
 1. [pdf-text-extraction-benchmark](https://github.com/ckorzen/pdf-text-extraction-benchmark) ![](https://img.shields.io/github/stars/ckorzen/pdf-text-extraction-benchmark.svg?style=social) - PDF tools benchmark
 1. [Born digital pdf scanner](https://github.com/applicaai/digital-born-pdf-scanner) ![](https://img.shields.io/github/stars/applicaai/digital-born-pdf-scanner.svg?style=social) - checking if pdf is born-digital
 1. [OpenContracts](https://github.com/JSv4/OpenContracts) ![](https://img.shields.io/github/stars/JSv4/OpenContracts?style=social) Apache2-licensed, PDF annotating platform for visually-rich documents that preserves the original layout and exports x,y positional data for tokens as well as span starts and stops. Based on PAWLs, but with a Python-based backend and readily deployable on your local machine, company intranet or the web via Docker Compose.
-
+1. [deepdoctection](https://github.com/deepdoctection/deepdoctection) ![](https://img.shields.io/github/stars/deepdoctection/deepdoctection?style=social) **deep**doctection is a Python library that orchestrates document extraction and document layout analysis tasks for images and pdf documents using deep learning models. It does not implement models but enables you to build pipelines using highly acknowledged libraries for object detection, OCR and selected NLP tasks and provides an integrated framework for fine-tuning, evaluating and running models. 
 
 ## Conferences, workshops
 
