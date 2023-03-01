@@ -55,6 +55,14 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 ### Papers
 
+#### 2023
+
+* [DocILE Benchmark for Document Information Localization and Extraction](https://arxiv.org/abs/2302.05658), \[[Website](https://docile.rossum.ai)\] \[[benchmark](https://rrc.cvc.uab.es/?ch=26)\] \[[code](https://github.com/rossumai/docile) ![](https://img.shields.io/github/stars/rossumai/docile.svg?style=social)\] 
+  <details>
+  <summary> Štěpán Šimsa, Milan Šulc, Michal Uřičář, Yash Patel, Ahmed Hamdi, Matěj Kocián, Matyáš Skalický, Jiří Matas, Antoine Doucet, Mickaël Coustaty, Dimosthenis Karatzas <em>arxiv pre-print</em> 2023 </summary>
+    This paper introduces the DocILE benchmark with the largest dataset of business documents for the tasks of Key Information Localization and Extraction and Line Item Recognition. It contains 6.7k annotated business documents, 100k synthetically generated documents, and nearly~1M unlabeled documents for unsupervised pre-training. The dataset has been built with knowledge of domain- and task-specific aspects, resulting in the following key features: (i) annotations in 55 classes, which surpasses the granularity of previously published key information extraction datasets by a large margin; (ii) Line Item Recognition represents a highly practical information extraction task, where key information has to be assigned to items in a table; (iii) documents come from numerous layouts and the test set includes zero- and few-shot cases as well as layouts commonly seen in the training set. The benchmark comes with several baselines, including RoBERTa, LayoutLMv3 and DETR-based Table Transformer. These baseline models were applied to both tasks of the DocILE benchmark, with results shared in this paper, offering a quick starting point for future work. The dataset and baselines are available at this https URL.
+  </details>
+
 #### 2022
 
 * [Business Document Information Extraction: Towards Practical Benchmarks](https://arxiv.org/abs/2206.11229) 
