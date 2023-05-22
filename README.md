@@ -65,7 +65,7 @@ Documents are a core part of many businesses in many fields such as law, finance
   
 * [Doc2Graph: A Task Agnostic Document Understanding Framework Based on Graph Neural Networks](https://link.springer.com/chapter/10.1007/978-3-031-25069-9_22), \[[code](https://github.com/andreagemelli/doc2graph) ![](https://img.shields.io/github/stars/andreagemelli/doc2graph.svg?style=social)\]
   <details>
-  <summary> Andrea Gemelli, Sanket Biswas, Enrico Civitelli, Josep Lladós, Simone Marinai <em>ECCV</em> 2023 </summary>
+  <summary> Andrea Gemelli, Sanket Biswas, Enrico Civitelli, Josep Lladós, Simone Marinai <em>TiE @ ECCV</em> 2023 </summary>
     Geometric Deep Learning has recently attracted significant interest in a wide range of machine learning fields, including document analysis. The application of Graph Neural Networks (GNNs) has become crucial in various document-related tasks since they can unravel important structural patterns, fundamental in key information extraction processes. Previous works in the literature propose task-driven models and do not take into account the full power of graphs. We propose Doc2Graph, a task-agnostic document understanding framework based on a GNN model, to solve different tasks given different types of documents. We evaluated our approach on two challenging datasets for key information extraction in form understanding, invoice layout analysis and table detection
   </details>
 
