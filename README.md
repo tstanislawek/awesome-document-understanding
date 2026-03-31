@@ -158,6 +158,7 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 #### PDF processing tools
 
+1. [DeepRead](https://www.deepread.tech) - AI-native document processing API with 97%+ accuracy using multi-model consensus. Extracts text and structured data from PDFs and images, fills PDF forms with AI vision, and redacts 14 types of PII. Free 2,000 pages/month.
 1. [borb](https://github.com/jorisschellekens/borb) ![](https://img.shields.io/github/stars/jorisschellekens/borb.svg?style=social) - is a pure python library to read, write and manipulate PDF documents. It represents a PDF document as a JSON-like datastructure of nested lists, dictionaries and primitives (numbers, string, booleans, etc).
 1. [pawls](https://github.com/allenai/pawls) ![](https://img.shields.io/github/stars/allenai/pawls.svg?style=social) - PDF Annotations with Labels and Structure is software that makes it easy to collect a series of annotations associated with a PDF document
 1. [pdfplumber](https://github.com/jsvine/pdfplumber) ![](https://img.shields.io/github/stars/jsvine/pdfplumber.svg?style=social) - Plumb a PDF for detailed information about each text character, rectangle, and line. Plus: Table extraction and visual debugging
