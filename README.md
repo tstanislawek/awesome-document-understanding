@@ -425,3 +425,7 @@ Red: text block, Blue: figure.
 1. https://github.com/papers-we-love/papers-we-love ![](https://img.shields.io/github/stars/papers-we-love/papers-we-love.svg?style=social)
 1. https://github.com/BAILOOL/DoYouEvenLearn ![](https://img.shields.io/github/stars/BAILOOL/DoYouEvenLearn.svg?style=social)
 1. https://github.com/hibayesian/awesome-automl-papers ![](https://img.shields.io/github/stars/hibayesian/awesome-automl-papers.svg?style=social)
+
+## AI Agent Services
+
+1. [TWZRD Agent Intel](https://intel.twzrd.xyz) - Trust scoring and identity verification for autonomous document processing agents on Solana. Agent identity receipts for autonomous document extraction and classification pipelines. Free MCP endpoint: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
