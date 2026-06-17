@@ -214,6 +214,7 @@ Documents are a core part of many businesses in many fields such as law, finance
 1. [UiPath Document Understanding Solution Architecture and Approach](https://medium.com/@lahirufernando90/uipath-document-understanding-solution-architecture-and-approach-934a9a26630a), 2020
 1. [How Can I Automate Data Extraction from Complex Documents?](https://www.infrrd.ai/blog/how-can-i-automate-data-extraction-from-complex-documents), 2020
 1. [LegalTech: Information Extraction in legal documents](https://naturaltech.medium.com/legaltech-information-extraction-in-legal-documents-e1843a60bc8d), 2020
+1. [doceval: Open-source eval harness for LLM document extraction pipelines.](https://dave8172-website.vercel.app/projects/doceval), 2026
 
 ## Solutions
 
