@@ -304,6 +304,12 @@
 
 #### English 
 
+* **[DocuBench: A Public Benchmark for Schema-Guided Structured Extraction from Hard Real-World Documents](https://github.com/DocuPipe/DocuBench)**, \[[Results explorer](https://htmlpreview.github.io/?https://github.com/DocuPipe/docubench/blob/main/docubench-explorer.html)\] \[[code](https://github.com/DocuPipe/DocuBench) ![](https://img.shields.io/github/stars/DocuPipe/DocuBench.svg?style=social)\]
+  <details>
+  <summary> DocuPipe <em>GitHub</em> 2026 </summary>
+    DocuBench pairs 50 public documents with JSON Schemas and hand-verified JSON labels. Documents span 10 file types (PDF, JPEG, PNG, TIFF, XLSX, CSV, XML, TXT, DOCX, HTML) and 11 languages including Hebrew, Arabic, Japanese, and Chinese, with rotated scans, handwriting, multi-page tables, and totals that must reconcile. Scoring is macro-average field accuracy with order-independent array matching via an open scorer; raw baseline outputs from six systems are committed for reproducibility.
+  </details>
+
 * **[DocILE Benchmark for Document Information Localization and Extraction](https://arxiv.org/abs/2302.05658)**, \[[Website](https://docile.rossum.ai)\] \[[benchmark](https://rrc.cvc.uab.es/?ch=26)\] \[[code](https://github.com/rossumai/docile) ![](https://img.shields.io/github/stars/rossumai/docile.svg?style=social)\]
   <details>
   <summary> Štěpán Šimsa, Milan Šulc, Michal Uřičář, Yash Patel, Ahmed Hamdi, Matěj Kocián, Matyáš Skalický, Jiří Matas, Antoine Doucet, Mickaël Coustaty, Dimosthenis Karatzas <em>arxiv pre-print</em> 2023 </summary>
