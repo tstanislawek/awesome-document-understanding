@@ -234,6 +234,7 @@ Smaller:
 1. [Element AI](https://www.elementai.com/products/document-intelligence)
 1. [Indico](https://indico.io)
 1. [Instabase](https://instabase.com/)
+1. [Kelriva AI](https://kelriva.ai)
 1. [Konfuzio](https://konfuzio.com/en/)
 1. [Metamaze](https://metamaze.eu)
 1. [Nanonets](https://nanonets.com)
