@@ -228,6 +228,7 @@ Big companies:
 1. [Uipath](https://www.uipath.com/product/document-understanding)
 
 Smaller:
+1. [AI Data Parser](https://aidataparser.com) - schema-guaranteed JSON extraction API for PDFs, invoices, and receipts, with OpenAPI + llms.txt support
 1. [Applica.ai](https://applica.ai/)
 1. [Base64.ai](https://base64.ai)
 1. [Docstack](https://www.docstack.com/ai-document-understanding)
