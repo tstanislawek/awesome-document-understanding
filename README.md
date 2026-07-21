@@ -203,6 +203,7 @@ Documents are a core part of many businesses in many fields such as law, finance
 
 [Back to top](#table-of-contents)
 
+1. [What Is Intelligent Document Processing?](https://kelriva.ai/insights/what-is-intelligent-document-processing), 2026
 1. [A Survey of Document Understanding Models](https://www.pragmatic.ml/a-survey-of-document-understanding-models/), 2021
 1. [Document Form Extraction](https://www.crosstab.io/product-comparisons/document-form-extraction), 2021
 1. [How to automate processes with unstructured data](https://levity.ai/blog/automate-processes-with-unstructured-data), 2021
