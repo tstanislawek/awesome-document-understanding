@@ -310,6 +310,12 @@
     This paper introduces the DocILE benchmark with the largest dataset of business documents for the tasks of Key Information Localization and Extraction and Line Item Recognition. It contains 6.7k annotated business documents, 100k synthetically generated documents, and nearly~1M unlabeled documents for unsupervised pre-training. The dataset has been built with knowledge of domain- and task-specific aspects, resulting in the following key features: (i) annotations in 55 classes, which surpasses the granularity of previously published key information extraction datasets by a large margin; (ii) Line Item Recognition represents a highly practical information extraction task, where key information has to be assigned to items in a table; (iii) documents come from numerous layouts and the test set includes zero- and few-shot cases as well as layouts commonly seen in the training set. The benchmark comes with several baselines, including RoBERTa, LayoutLMv3 and DETR-based Table Transformer. These baseline models were applied to both tasks of the DocILE benchmark, with results shared in this paper, offering a quick starting point for future work. The dataset and baselines are available at this https URL.
   </details>
 
+* **[Invoice Extraction Benchmark v1](https://github.com/DrewKraken/invoice-extraction-benchmark)**, \[[Hugging Face](https://huggingface.co/datasets/drew-ipp/invoice-extraction-benchmark)\] \[[results](https://invoiceparserpro.com/accuracy)\]
+  <details>
+  <summary> InvoiceParser Pro <em>dataset</em> 2026 </summary>
+    181 synthetic invoices for key information extraction and line-item recognition, made hard on purpose: phone photos at three damage grades, scans, handwritten invoice books, credit notes, dual-currency and VAT-inclusive layouts, multi-page documents and invoices whose printed figures do not add up. Each document has an answer key; a scorer reports header-field accuracy, line-item F1 and inconsistency flags. Code MIT, data CC BY 4.0. Made by an invoice-extraction vendor (InvoiceParser Pro), so not independent.
+  </details>
+
 * **[DUE: End-to-End Document Understanding Benchmark](https://openreview.net/forum?id=rNs2FvJGDK)**, \[[Website](https://duebenchmark.com/leaderboard) \] 
   <details>
   <summary> Łukasz Borchmann, Michał Pietruszka, Tomasz Stanislawek, Dawid Jurkiewicz, Michał Turski, Karolina Szyndler, Filip Graliński <em>NIPS</em> 2021 </summary>
